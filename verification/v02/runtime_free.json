@@ -1,0 +1,7 @@
+{
+	"all_gameplay_checks_passed": true,
+	"complete_without_help_or_terminal": true,
+	"free_start_at_regulator": true,
+	"help_never_required": true,
+	"relay_without_terminal_or_help": true
+}

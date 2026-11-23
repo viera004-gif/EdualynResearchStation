@@ -1,0 +1,29 @@
+{
+  "slot": "MB02",
+  "mission_id": "MODULE_BAY_02_RELAY_POLARITY",
+  "version": "relay_polarity_v0_1",
+  "text_namespace": "relay_polarity",
+  "app_version": "research_station_v0_3",
+  "scene": "res://scenes/main/relay_polarity_failure.tscn",
+  "title_key": "mission.relay_polarity.title",
+  "objective_key": "mission.relay_polarity.objective",
+  "completion_key": "mission.relay_polarity.complete",
+  "initial_state": "ROUTE_UNRESOLVED",
+  "dependency_graph": [["SOURCE_STABLE", "RELAY_A_ALIGNED"], ["RELAY_A_ALIGNED", "RELAY_B_SUPPLIED"], ["RELAY_B_SUPPLIED", "ROUTE_READY"], ["RELAY_B_ALIGNED", "ROUTE_READY"], ["CONTACTOR_ENGAGED", "ROUTE_READY"], ["ROUTE_READY", "SYSTEM_ACTIVE"]],
+  "available_tools": ["DIAGNOSTIC_SCANNER", "DIAGNOSTIC_AI"],
+  "failure_states": ["BOTH_RELAYS_MISMATCHED", "INPUT_BLOCKED_AT_A", "PHASE_COLLAPSE_AT_B"],
+  "valid_solution_states": ["SYSTEM_ACTIVE"],
+  "help_policy": {
+    "policy_version": "prototype_help_policy_v0_2",
+    "parameter_status": "PROVISIONAL GAMEPLAY PARAMETERS - NOT VALIDATED PSYCHOMETRIC OR CLINICAL CUT-OFFS",
+    "adaptive_help": {"exact_repeat_nudge_count": 2, "prolonged_no_progress_seconds": 45, "level2_after_help_requests": 1, "level3_after_help_requests": 2}
+  },
+  "tutorial_level": "contextual_only",
+  "scaffolding_level": "faded",
+  "early_help_exploration_count": 2,
+  "relay_units": {
+    "RELAY_A": {"initial_orientation": 3, "required_orientation": 1},
+    "RELAY_B": {"initial_orientation": 0, "required_orientation": 2}
+  },
+  "content_use": "intervention_only_not_protected_assessment"
+}

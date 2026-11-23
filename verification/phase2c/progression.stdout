@@ -1,0 +1,47 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+Vulkan 1.4.315 - Forward Mobile - Using Device #0: AMD - AMD Radeon(TM) Graphics
+
+RAW_EVENT game_started index=0
+PROBE mb03_locked_before_mb02_completion=true
+PROBE cannot_bypass_unlock=true
+PROBE ray_RELAY_B=true
+RAW_EVENT system_state_changed index=1
+RAW_EVENT mission_started index=2
+RAW_EVENT relay_unit_rotated index=3
+RAW_EVENT power_route_changed index=4
+PROBE physical_turn_RELAY_B=true
+PROBE ray_RELAY_B=true
+RAW_EVENT relay_unit_rotated index=5
+RAW_EVENT system_state_changed index=6
+RAW_EVENT power_route_changed index=7
+PROBE physical_turn_RELAY_B=true
+PROBE ray_RELAY_A=true
+RAW_EVENT relay_unit_rotated index=8
+RAW_EVENT power_route_changed index=9
+PROBE physical_turn_RELAY_A=true
+PROBE ray_RELAY_A=true
+RAW_EVENT relay_unit_rotated index=10
+RAW_EVENT system_state_changed index=11
+RAW_EVENT power_route_changed index=12
+PROBE physical_turn_RELAY_A=true
+PROBE ray_ROUTE_TEST=true
+RAW_EVENT relay_configuration_valid index=13
+RAW_EVENT system_state_changed index=14
+RAW_EVENT power_route_changed index=15
+RAW_EVENT system_state_changed index=16
+RAW_EVENT machine_activated index=17
+RAW_EVENT mission_completed index=18
+PROBE completion_only_unlock=true
+PROBE unlock_save_reload=true
+PROBE ray_MODULE_BAY_OPERATIONS=true
+PROBE console_access_prompt=true
+RAW_EVENT game_started index=0
+PROBE physical_console_transition_and_locale=true
+PROBE offline_evidence_retained=true
+RAW_EVENT mission_left index=1
+RAW_EVENT game_started index=0
+RAW_EVENT mission_left index=1
+RAW_EVENT game_started index=0
+RAW_EVENT mission_left index=1
+RAW_EVENT game_started index=0
+PROBE controlled_configuration_rotation=true

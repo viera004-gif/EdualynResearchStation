@@ -1,0 +1,15 @@
+{
+	"all_gameplay_checks_passed": true,
+	"alternative_balance_independent_completion": true,
+	"combined_fault_start": true,
+	"different_valid_final_balance": true,
+	"linear_regulator_motion": true,
+	"one_fault_correction_not_enough": true,
+	"physical_adjust_primary": true,
+	"physical_adjust_regulator": true,
+	"ray_@Area3D@38": true,
+	"ray_@Area3D@41": true,
+	"ray_@Area3D@51": true,
+	"scanner_and_ai_optional": true,
+	"valve_motion_primary": true
+}

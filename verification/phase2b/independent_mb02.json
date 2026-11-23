@@ -1,0 +1,12 @@
+{
+	"all_gameplay_checks_passed": true,
+	"b_first_independent_completion": true,
+	"failure_BOTH_RELAYS_MISMATCHED": true,
+	"failure_INPUT_BLOCKED_AT_A": true,
+	"no_help_or_scanner_required": true,
+	"physical_turn_RELAY_A": true,
+	"physical_turn_RELAY_B": true,
+	"ray_RELAY_A": true,
+	"ray_RELAY_B": true,
+	"ray_ROUTE_TEST": true
+}

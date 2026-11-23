@@ -1,0 +1,121 @@
+00:02.703  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_19336_d2aad08d65bd4b94239830463acb0f89.png.png"
+Info: Saved as "coolant_manifold.blend"
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+17:10:38 | INFO: Starting glTF 2.0 export
+17:10:38 | INFO: Extracting primitive: Cube.002
+17:10:38 | INFO: Primitives created: 1
+17:10:38 | INFO: Extracting primitive: Cube
+17:10:38 | INFO: Primitives created: 1
+17:10:38 | INFO: Extracting primitive: Cube.001
+17:10:38 | INFO: Primitives created: 1
+17:10:38 | INFO: Extracting primitive: Cylinder.001
+17:10:38 | INFO: Primitives created: 1
+17:10:38 | INFO: Finished glTF 2.0 export in 0.12586069107055664 s
+00:03.531  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_19336_11b3cd08e5587cbe29be59ae462a6e79.png.png"
+
+Info: Saved as "primary_valve.blend"
+17:10:38 | INFO: Starting glTF 2.0 export
+17:10:38 | INFO: Extracting primitive: Cylinder.009
+17:10:38 | INFO: Primitives created: 1
+17:10:38 | INFO: Extracting primitive: Cube.005
+17:10:38 | INFO: Primitives created: 1
+17:10:38 | INFO: Extracting primitive: Cube.006
+17:10:38 | INFO: Primitives created: 1
+17:10:38 | INFO: Extracting primitive: Torus
+17:10:38 | INFO: Primitives created: 1
+17:10:38 | INFO: Extracting primitive: Cylinder.011
+17:10:38 | INFO: Primitives created: 1
+17:10:38 | INFO: Extracting primitive: Cube.010
+17:10:38 | INFO: Primitives created: 1
+17:10:38 | INFO: Finished glTF 2.0 export in 0.05532026290893555 s
+00:03.719  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_19336_544d3758a39fc38d0b24bd216e1b694c.png.png"
+
+Info: Saved as "pressure_regulator.blend"
+17:10:38 | INFO: Starting glTF 2.0 export
+17:10:38 | INFO: Extracting primitive: Cube.012
+17:10:38 | INFO: Primitives created: 1
+17:10:38 | INFO: Extracting primitive: Cube.013
+17:10:38 | INFO: Primitives created: 1
+17:10:38 | INFO: Extracting primitive: Cylinder.017
+17:10:38 | INFO: Primitives created: 1
+17:10:38 | INFO: Extracting primitive: Cube.014
+17:10:38 | INFO: Primitives created: 1
+17:10:38 | INFO: Extracting primitive: Cylinder.016
+17:10:38 | INFO: Primitives created: 1
+17:10:38 | INFO: Extracting primitive: Cube.011
+17:10:38 | INFO: Primitives created: 1
+17:10:38 | INFO: Extracting primitive: Cube.015
+17:10:38 | INFO: Primitives created: 1
+17:10:39 | INFO: Finished glTF 2.0 export in 0.06256604194641113 s
+00:03.859  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_19336_ff7d934fb3ab17725410497ec80c4090.png.png"
+
+Info: Saved as "bypass_valve.blend"
+17:10:39 | INFO: Starting glTF 2.0 export
+17:10:39 | INFO: Extracting primitive: Cube.021
+17:10:39 | INFO: Primitives created: 1
+17:10:39 | INFO: Extracting primitive: Cube.022
+17:10:39 | INFO: Primitives created: 1
+17:10:39 | INFO: Extracting primitive: Cylinder.022
+17:10:39 | INFO: Primitives created: 1
+17:10:39 | INFO: Extracting primitive: Cube.020
+17:10:39 | INFO: Primitives created: 1
+17:10:39 | INFO: Finished glTF 2.0 export in 0.04873967170715332 s
+00:04.109  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_19336_468017e789f4e18450473c38274ecaa4.png.png"
+
+Info: Saved as "cooling_core.blend"
+17:10:39 | INFO: Starting glTF 2.0 export
+17:10:39 | INFO: Extracting primitive: Cube.046
+17:10:39 | INFO: Primitives created: 1
+17:10:39 | INFO: Extracting primitive: Cube.045
+17:10:39 | INFO: Primitives created: 1
+17:10:39 | INFO: Extracting primitive: Cube.023
+17:10:39 | INFO: Primitives created: 1
+17:10:39 | INFO: Extracting primitive: Cube.024
+17:10:39 | INFO: Primitives created: 1
+17:10:39 | INFO: Extracting primitive: Cylinder.029
+17:10:39 | INFO: Primitives created: 1
+17:10:39 | INFO: Extracting primitive: Cube.025
+17:10:39 | INFO: Primitives created: 1
+17:10:39 | INFO: Finished glTF 2.0 export in 0.0633697509765625 s
+00:04.453  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_19336_e7ab310e157a1c3c7b079e6fe025cff9.png.png"
+
+Info: Saved as "pressure_gauge.blend"
+17:10:39 | INFO: Starting glTF 2.0 export
+17:10:39 | INFO: Extracting primitive: Torus.005
+17:10:39 | INFO: Primitives created: 1
+17:10:39 | INFO: Extracting primitive: Cylinder.036
+17:10:39 | INFO: Primitives created: 1
+17:10:39 | INFO: Extracting primitive: Cube.080
+17:10:39 | INFO: Primitives created: 1
+17:10:39 | INFO: Extracting primitive: Cylinder.037
+17:10:39 | INFO: Primitives created: 1
+17:10:39 | INFO: Extracting primitive: Cube.060
+17:10:39 | INFO: Primitives created: 1
+17:10:39 | INFO: Extracting primitive: Cylinder.035
+17:10:39 | INFO: Primitives created: 1
+17:10:39 | INFO: Finished glTF 2.0 export in 0.05812573432922363 s
+00:04.688  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_19336_c9f35e486270b523bdf72e2f3823475d.png.png"
+
+Info: Saved as "coolant_routes.blend"
+17:10:39 | INFO: Starting glTF 2.0 export
+17:10:39 | INFO: Extracting primitive: Cube.083
+17:10:39 | INFO: Primitives created: 1
+17:10:39 | INFO: Extracting primitive: Cube.085
+17:10:39 | INFO: Primitives created: 1
+17:10:39 | INFO: Extracting primitive: Cube.082
+17:10:39 | INFO: Primitives created: 1
+17:10:39 | INFO: Extracting primitive: Cube.081
+17:10:39 | INFO: Primitives created: 1
+17:10:39 | INFO: Extracting primitive: Cube.084
+17:10:39 | INFO: Primitives created: 1
+17:10:39 | INFO: Extracting primitive: Cylinder.038
+17:10:39 | INFO: Primitives created: 1
+17:10:39 | INFO: Extracting primitive: Cylinder.043
+17:10:39 | INFO: Primitives created: 1
+17:10:39 | INFO: Finished glTF 2.0 export in 0.05864262580871582 s
+
+MB03_ASSETS_COMPLETE {"coolant_manifold": {"mesh_objects": 4, "triangles": 2736}, "primary_valve": {"mesh_objects": 6, "triangles": 2828}, "pressure_regulator": {"mesh_objects": 7, "triangles": 3348}, "bypass_valve": {"mesh_objects": 4, "triangles": 1928}, "cooling_core": {"mesh_objects": 6, "triangles": 4296}, "pressure_gauge": {"mesh_objects": 6, "triangles": 2888}, "coolant_routes": {"mesh_objects": 7, "triangles": 4620}}
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+
+Blender quit

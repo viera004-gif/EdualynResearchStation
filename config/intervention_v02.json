@@ -1,0 +1,14 @@
+{
+  "content_id": "MODULE_BAY_01_POWER_COUPLING_CASCADE_V02",
+  "content_version": "power_coupling_cascade_v0_2",
+  "session_purpose": "intervention",
+  "content_use": "intervention_only_not_protected_assessment",
+  "policy_version": "prototype_help_policy_v0_2",
+  "parameter_status": "PROVISIONAL GAMEPLAY PARAMETERS — NOT VALIDATED PSYCHOMETRIC OR CLINICAL CUT-OFFS",
+  "adaptive_help": {
+    "exact_repeat_nudge_count": 2,
+    "prolonged_no_progress_seconds": 45,
+    "level2_after_help_requests": 1,
+    "level3_after_help_requests": 2
+  }
+}

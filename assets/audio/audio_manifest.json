@@ -1,0 +1,55 @@
+{
+  "license": "Original programmatic synthesis for this project; no commercial samples",
+  "generator": "art_source/audio/generate_audio.py",
+  "cues": {
+    "terminal": {
+      "seconds": 0.34,
+      "sample_rate": 48000,
+      "channels": 1,
+      "peak_linear": 0.14445990332180922,
+      "loop": false
+    },
+    "pickup": {
+      "seconds": 0.22,
+      "sample_rate": 48000,
+      "channels": 1,
+      "peak_linear": 0.18832975133529545,
+      "loop": false
+    },
+    "rotate": {
+      "seconds": 0.14,
+      "sample_rate": 48000,
+      "channels": 1,
+      "peak_linear": 0.08647688801224589,
+      "loop": false
+    },
+    "invalid": {
+      "seconds": 0.34,
+      "sample_rate": 48000,
+      "channels": 1,
+      "peak_linear": 0.14183281409495693,
+      "loop": false
+    },
+    "lock": {
+      "seconds": 0.38,
+      "sample_rate": 48000,
+      "channels": 1,
+      "peak_linear": 0.2276657072734061,
+      "loop": false
+    },
+    "startup": {
+      "seconds": 2.4,
+      "sample_rate": 48000,
+      "channels": 1,
+      "peak_linear": 0.12504658259221918,
+      "loop": false
+    },
+    "hum": {
+      "seconds": 2,
+      "sample_rate": 48000,
+      "channels": 1,
+      "peak_linear": 0.12264888824732938,
+      "loop": true
+    }
+  }
+}

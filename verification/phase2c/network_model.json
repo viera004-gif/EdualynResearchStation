@@ -1,0 +1,26 @@
+{
+	"monotonic_consequences_passed": true,
+	"parameter_states_checked": 64,
+	"start_configurations_reachable": {
+		"A": true,
+		"B": true,
+		"C": true
+	},
+	"valid_balances": [
+		[
+			2,
+			2,
+			0
+		],
+		[
+			3,
+			2,
+			0
+		],
+		[
+			3,
+			2,
+			1
+		]
+	]
+}

@@ -1,0 +1,241 @@
+00:03.109  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_23520_a24aeeb97f52e270fef3b4b3455a7790.png.png"
+Info: Saved as "polarity_relay_a.blend"
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+15:07:27 | INFO: Starting glTF 2.0 export
+15:07:27 | INFO: Extracting primitive: Cylinder.002
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cylinder.003
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cylinder.004
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cylinder.005
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.001
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.002
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.005
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.006
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.003
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.004
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.016
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.017
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Torus
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Text
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.015
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.007
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.008
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.011
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cylinder.001
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Torus.001
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.012
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.009
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.010
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cylinder
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.013
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.014
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Finished glTF 2.0 export in 0.18044257164001465 s
+00:04.219  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_23520_f851ce79f1254c977eea2f76de7ac33c.png.png"
+
+Info: Saved as "polarity_relay_b.blend"
+15:07:27 | INFO: Starting glTF 2.0 export
+15:07:27 | INFO: Extracting primitive: Cylinder.008
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cylinder.009
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cylinder.010
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cylinder.011
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.019
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.031
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.032
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.020
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.023
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.024
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.021
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.022
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.034
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.035
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Torus.002
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Text.001
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.033
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.025
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.026
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.029
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cylinder.007
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Torus.003
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.030
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.027
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.028
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.018
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cylinder.006
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Finished glTF 2.0 export in 0.12412142753601074 s
+00:04.437  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_23520_b10207b9e680f05edae21658e62cfdf5.png.png"
+
+Info: Saved as "relay_coupling_assembly.blend"
+15:07:27 | INFO: Starting glTF 2.0 export
+15:07:27 | INFO: Extracting primitive: Cylinder.012
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.046
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.045
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.043
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.037
+15:07:27 | INFO: Primitives created: 1
+15:07:27 | INFO: Extracting primitive: Cube.036
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.044
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.047
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.038
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.039
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.040
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.041
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.042
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Finished glTF 2.0 export in 0.08553028106689453 s
+00:04.625  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_23520_3d79b43c293da05377361d7819ee5d8b.png.png"
+
+Info: Saved as "polarity_connectors.blend"
+15:07:28 | INFO: Starting glTF 2.0 export
+15:07:28 | INFO: Extracting primitive: Cylinder.013
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cylinder.014
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cylinder.015
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cylinder.016
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cylinder.017
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cylinder.018
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.049
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.051
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.053
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.055
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.057
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.059
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.048
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.050
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.052
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.054
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.056
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.058
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Finished glTF 2.0 export in 0.06639885902404785 s
+00:04.812  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_23520_2b61c05f9806e2fb8bd698949d180e9a.png.png"
+
+Info: Saved as "polarity_routes.blend"
+15:07:28 | INFO: Starting glTF 2.0 export
+15:07:28 | INFO: Extracting primitive: Cube.064
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.065
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.070
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.071
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.076
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.077
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.073
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.074
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.075
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.072
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.079
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.078
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.067
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.068
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.069
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.066
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.061
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.062
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.063
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Extracting primitive: Cube.060
+15:07:28 | INFO: Primitives created: 1
+15:07:28 | INFO: Finished glTF 2.0 export in 0.08679580688476562 s
+
+MB02_ASSETS_COMPLETE {"polarity_relay_a": {"mesh_objects": 27, "triangles": 5836}, "polarity_relay_b": {"mesh_objects": 27, "triangles": 6220}, "relay_coupling_assembly": {"mesh_objects": 13, "triangles": 1580}, "polarity_connectors": {"mesh_objects": 18, "triangles": 3000}, "polarity_routes": {"mesh_objects": 20, "triangles": 2160}}
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+
+Blender quit

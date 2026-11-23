@@ -1,0 +1,1 @@
+Frozen Reference Build v0.1. ZIP includes every pre-v0.2 project file except generated .godot/__pycache__ caches. All ZIP entries verified against reference_v01_files.json. Extract into a SEPARATE review directory, then import with Godot; do not overwrite the working v0.2 project. The original REFERENCE_BUILD.md and config/reference_build.json remain unchanged at project root.

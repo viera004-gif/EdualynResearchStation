@@ -1,0 +1,45 @@
+{
+	"after_MB01": {
+		"MB01": {
+			"live_scene_meshes": 57,
+			"previous_resources_still_alive": 0
+		},
+		"MB02": {
+			"live_scene_meshes": 0,
+			"previous_resources_still_alive": 0
+		},
+		"MB03": {
+			"live_scene_meshes": 0,
+			"previous_resources_still_alive": 0
+		}
+	},
+	"after_MB02": {
+		"MB01": {
+			"live_scene_meshes": 0,
+			"previous_resources_still_alive": 0
+		},
+		"MB02": {
+			"live_scene_meshes": 74,
+			"previous_resources_still_alive": 0
+		},
+		"MB03": {
+			"live_scene_meshes": 0,
+			"previous_resources_still_alive": 0
+		}
+	},
+	"initial_MB01": {
+		"MB01": {
+			"live_scene_meshes": 57,
+			"previous_resources_still_alive": 0
+		},
+		"MB02": {
+			"live_scene_meshes": 0,
+			"previous_resources_still_alive": 0
+		},
+		"MB03": {
+			"live_scene_meshes": 0,
+			"previous_resources_still_alive": 0
+		}
+	},
+	"only_current_mission_heavy_resources": true
+}

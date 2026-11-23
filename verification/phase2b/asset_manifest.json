@@ -1,0 +1,22 @@
+{
+  "polarity_relay_a": {
+    "mesh_objects": 27,
+    "triangles": 5836
+  },
+  "polarity_relay_b": {
+    "mesh_objects": 27,
+    "triangles": 6220
+  },
+  "relay_coupling_assembly": {
+    "mesh_objects": 13,
+    "triangles": 1580
+  },
+  "polarity_connectors": {
+    "mesh_objects": 18,
+    "triangles": 3000
+  },
+  "polarity_routes": {
+    "mesh_objects": 20,
+    "triangles": 2160
+  }
+}

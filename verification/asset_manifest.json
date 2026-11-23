@@ -1,0 +1,30 @@
+{
+  "module_bay_01": {
+    "mesh_objects": 327,
+    "triangles": 50256
+  },
+  "workbench": {
+    "mesh_objects": 12,
+    "triangles": 3356
+  },
+  "mission_terminal": {
+    "mesh_objects": 12,
+    "triangles": 4092
+  },
+  "repair_machine": {
+    "mesh_objects": 39,
+    "triangles": 13416
+  },
+  "energy_module": {
+    "mesh_objects": 18,
+    "triangles": 2160
+  },
+  "socket_wrong": {
+    "mesh_objects": 15,
+    "triangles": 3108
+  },
+  "socket_correct": {
+    "mesh_objects": 15,
+    "triangles": 2856
+  }
+}

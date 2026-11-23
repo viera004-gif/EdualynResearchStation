@@ -1,0 +1,285 @@
+WorkerThreadPool: 8 threads, 2 max low-priority.
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+TextServer: Added interface "Dummy"
+TextServer: Added interface "ICU / HarfBuzz / Graphite (Built-in)"
+Using "default" pen tablet driver...
+
+TextServer: Primary interface set to: "ICU / HarfBuzz / Graphite (Built-in)".
+CORE API HASH: 2004498165
+EDITOR API HASH: 1696660745
+SceneTreeFTI: traversal method DEFAULT
+Loaded builtin CA certificates
+Loading resource: res://scenes/main/coolant_pressure_imbalance.tscn remapped: res://scenes/main/coolant_pressure_imbalance.tscn
+Loading resource: res://scripts/intervention/coolant_pressure_imbalance.gd remapped: res://scripts/intervention/coolant_pressure_imbalance.gd
+Completed load for: 'res://scripts/intervention/coolant_pressure_imbalance.gd' remapped 'res://scripts/intervention/coolant_pressure_imbalance.gd' at thread -1
+Completed load for: 'res://scenes/main/coolant_pressure_imbalance.tscn' remapped 'res://scenes/main/coolant_pressure_imbalance.tscn' at thread -1
+Loading resource: res://scripts/program/mission_definition.gd remapped: res://scripts/program/mission_definition.gd
+Completed load for: 'res://scripts/program/mission_definition.gd' remapped 'res://scripts/program/mission_definition.gd' at thread -1
+Loading resource: res://scripts/program/module_bay_program.gd remapped: res://scripts/program/module_bay_program.gd
+Completed load for: 'res://scripts/program/module_bay_program.gd' remapped 'res://scripts/program/module_bay_program.gd' at thread -1
+Loading resource: res://scripts/localization/station_localization.gd remapped: res://scripts/localization/station_localization.gd
+Completed load for: 'res://scripts/localization/station_localization.gd' remapped 'res://scripts/localization/station_localization.gd' at thread -1
+Loading resource: res://scripts/intervention/action_history.gd remapped: res://scripts/intervention/action_history.gd
+Completed load for: 'res://scripts/intervention/action_history.gd' remapped 'res://scripts/intervention/action_history.gd' at thread -1
+Loading resource: res://scripts/intervention/cascade_telemetry.gd remapped: res://scripts/intervention/cascade_telemetry.gd
+Completed load for: 'res://scripts/intervention/cascade_telemetry.gd' remapped 'res://scripts/intervention/cascade_telemetry.gd' at thread -1
+Loading resource: res://scripts/intervention/cascade_audio.gd remapped: res://scripts/intervention/cascade_audio.gd
+Completed load for: 'res://scripts/intervention/cascade_audio.gd' remapped 'res://scripts/intervention/cascade_audio.gd' at thread -1
+Loading resource: res://assets/audio/terminal.wav remapped: res://assets/audio/terminal.wav
+Loading resource: res://.godot/imported/terminal.wav-272fdec8a49705fe23b2ce79b62be335.sample remapped: res://.godot/imported/terminal.wav-272fdec8a49705fe23b2ce79b62be335.sample
+Completed load for: 'res://assets/audio/terminal.wav' remapped 'res://assets/audio/terminal.wav' at thread -1
+Loading resource: res://assets/audio/pickup.wav remapped: res://assets/audio/pickup.wav
+Loading resource: res://.godot/imported/pickup.wav-005c0482069dd16ebcd4cedd7f327134.sample remapped: res://.godot/imported/pickup.wav-005c0482069dd16ebcd4cedd7f327134.sample
+Completed load for: 'res://assets/audio/pickup.wav' remapped 'res://assets/audio/pickup.wav' at thread -1
+Loading resource: res://assets/audio/rotate.wav remapped: res://assets/audio/rotate.wav
+Loading resource: res://.godot/imported/rotate.wav-4d1ef0d2c649133d31db5a4ae6e7a50f.sample remapped: res://.godot/imported/rotate.wav-4d1ef0d2c649133d31db5a4ae6e7a50f.sample
+Completed load for: 'res://assets/audio/rotate.wav' remapped 'res://assets/audio/rotate.wav' at thread -1
+Loading resource: res://assets/audio/invalid.wav remapped: res://assets/audio/invalid.wav
+Loading resource: res://.godot/imported/invalid.wav-ae8a1e7683d65af35fe06e231a2cf152.sample remapped: res://.godot/imported/invalid.wav-ae8a1e7683d65af35fe06e231a2cf152.sample
+Completed load for: 'res://assets/audio/invalid.wav' remapped 'res://assets/audio/invalid.wav' at thread -1
+Loading resource: res://assets/audio/lock.wav remapped: res://assets/audio/lock.wav
+Loading resource: res://.godot/imported/lock.wav-07f7fde860a625246fc52a8c29116f7d.sample remapped: res://.godot/imported/lock.wav-07f7fde860a625246fc52a8c29116f7d.sample
+Completed load for: 'res://assets/audio/lock.wav' remapped 'res://assets/audio/lock.wav' at thread -1
+Loading resource: res://assets/audio/startup.wav remapped: res://assets/audio/startup.wav
+Loading resource: res://.godot/imported/startup.wav-4f795b40537ffd3e93c592de20e3cfad.sample remapped: res://.godot/imported/startup.wav-4f795b40537ffd3e93c592de20e3cfad.sample
+Completed load for: 'res://assets/audio/startup.wav' remapped 'res://assets/audio/startup.wav' at thread -1
+Loading resource: res://assets/audio/hum.wav remapped: res://assets/audio/hum.wav
+Loading resource: res://.godot/imported/hum.wav-3e8cb3ba3785f99343e3a053b39d59c0.sample remapped: res://.godot/imported/hum.wav-3e8cb3ba3785f99343e3a053b39d59c0.sample
+Completed load for: 'res://assets/audio/hum.wav' remapped 'res://assets/audio/hum.wav' at thread -1
+Loading resource: res://assets/audio/intervention_v02/valve.wav remapped: res://assets/audio/intervention_v02/valve.wav
+Loading resource: res://.godot/imported/valve.wav-a0d1486da5945af74915776f582f2693.sample remapped: res://.godot/imported/valve.wav-a0d1486da5945af74915776f582f2693.sample
+Completed load for: 'res://assets/audio/intervention_v02/valve.wav' remapped 'res://assets/audio/intervention_v02/valve.wav' at thread -1
+Loading resource: res://assets/audio/intervention_v02/flow.wav remapped: res://assets/audio/intervention_v02/flow.wav
+Loading resource: res://.godot/imported/flow.wav-740f00b33763cc3f6a9a4268b3729453.sample remapped: res://.godot/imported/flow.wav-740f00b33763cc3f6a9a4268b3729453.sample
+Completed load for: 'res://assets/audio/intervention_v02/flow.wav' remapped 'res://assets/audio/intervention_v02/flow.wav' at thread -1
+Loading resource: res://assets/audio/intervention_v02/relay_reject.wav remapped: res://assets/audio/intervention_v02/relay_reject.wav
+Loading resource: res://.godot/imported/relay_reject.wav-4e59b7d121a1a9e7e8041e45ecfbf021.sample remapped: res://.godot/imported/relay_reject.wav-4e59b7d121a1a9e7e8041e45ecfbf021.sample
+Completed load for: 'res://assets/audio/intervention_v02/relay_reject.wav' remapped 'res://assets/audio/intervention_v02/relay_reject.wav' at thread -1
+Loading resource: res://assets/audio/intervention_v02/relay_engage.wav remapped: res://assets/audio/intervention_v02/relay_engage.wav
+Loading resource: res://.godot/imported/relay_engage.wav-b828dc26993d3bc83e67a86895648615.sample remapped: res://.godot/imported/relay_engage.wav-b828dc26993d3bc83e67a86895648615.sample
+Completed load for: 'res://assets/audio/intervention_v02/relay_engage.wav' remapped 'res://assets/audio/intervention_v02/relay_engage.wav' at thread -1
+Loading resource: res://assets/audio/intervention_v02/scan_start.wav remapped: res://assets/audio/intervention_v02/scan_start.wav
+Loading resource: res://.godot/imported/scan_start.wav-551866732d69deb833a6a7a6f4adf371.sample remapped: res://.godot/imported/scan_start.wav-551866732d69deb833a6a7a6f4adf371.sample
+Completed load for: 'res://assets/audio/intervention_v02/scan_start.wav' remapped 'res://assets/audio/intervention_v02/scan_start.wav' at thread -1
+Loading resource: res://assets/audio/intervention_v02/scan_complete.wav remapped: res://assets/audio/intervention_v02/scan_complete.wav
+Loading resource: res://.godot/imported/scan_complete.wav-27a12a1a341832cbd4253fc766aa364e.sample remapped: res://.godot/imported/scan_complete.wav-27a12a1a341832cbd4253fc766aa364e.sample
+Completed load for: 'res://assets/audio/intervention_v02/scan_complete.wav' remapped 'res://assets/audio/intervention_v02/scan_complete.wav' at thread -1
+Loading resource: res://assets/audio/intervention_v02/station_wake.wav remapped: res://assets/audio/intervention_v02/station_wake.wav
+Loading resource: res://.godot/imported/station_wake.wav-037ee18e696d427a38941cc5fd5abd9f.sample remapped: res://.godot/imported/station_wake.wav-037ee18e696d427a38941cc5fd5abd9f.sample
+Completed load for: 'res://assets/audio/intervention_v02/station_wake.wav' remapped 'res://assets/audio/intervention_v02/station_wake.wav' at thread -1
+Loading resource: res://assets/audio/intervention_v02/trace.wav remapped: res://assets/audio/intervention_v02/trace.wav
+Loading resource: res://.godot/imported/trace.wav-47af84ced6e8d63f618dc381c94b6dbd.sample remapped: res://.godot/imported/trace.wav-47af84ced6e8d63f618dc381c94b6dbd.sample
+Completed load for: 'res://assets/audio/intervention_v02/trace.wav' remapped 'res://assets/audio/intervention_v02/trace.wav' at thread -1
+Loading resource: res://scenes/environment/module_room.tscn remapped: res://scenes/environment/module_room.tscn
+Loading resource: res://assets/models/module_bay_01.glb remapped: res://assets/models/module_bay_01.glb
+Loading resource: res://.godot/imported/module_bay_01.glb-9e7e6275ca98e42679f49f0e1af2a8ad.scn remapped: res://.godot/imported/module_bay_01.glb-9e7e6275ca98e42679f49f0e1af2a8ad.scn
+Loading resource: res://assets/models/module_bay_01_mat_metal_brushed_roughness.png remapped: res://assets/models/module_bay_01_mat_metal_brushed_roughness.png
+Loading resource: res://.godot/imported/module_bay_01_mat_metal_brushed_roughness.png-0437854673f300376a7f87bf000bcfd0.ctex remapped: res://.godot/imported/module_bay_01_mat_metal_brushed_roughness.png-0437854673f300376a7f87bf000bcfd0.ctex
+Completed load for: 'res://assets/models/module_bay_01_mat_metal_brushed_roughness.png' remapped 'res://assets/models/module_bay_01_mat_metal_brushed_roughness.png' at thread -1
+Loading resource: res://assets/models/module_bay_01_mat_metal_dark_roughness.png remapped: res://assets/models/module_bay_01_mat_metal_dark_roughness.png
+Loading resource: res://.godot/imported/module_bay_01_mat_metal_dark_roughness.png-f1f1baca42fa0d9dce76d8c27ad55338.ctex remapped: res://.godot/imported/module_bay_01_mat_metal_dark_roughness.png-f1f1baca42fa0d9dce76d8c27ad55338.ctex
+Completed load for: 'res://assets/models/module_bay_01_mat_metal_dark_roughness.png' remapped 'res://assets/models/module_bay_01_mat_metal_dark_roughness.png' at thread -1
+Loading resource: res://assets/models/module_bay_01_mat_floor_roughness.png remapped: res://assets/models/module_bay_01_mat_floor_roughness.png
+Loading resource: res://.godot/imported/module_bay_01_mat_floor_roughness.png-ed2ff107ca7215683f4852ca5700ad5f.ctex remapped: res://.godot/imported/module_bay_01_mat_floor_roughness.png-ed2ff107ca7215683f4852ca5700ad5f.ctex
+Completed load for: 'res://assets/models/module_bay_01_mat_floor_roughness.png' remapped 'res://assets/models/module_bay_01_mat_floor_roughness.png' at thread -1
+Loading resource: res://assets/models/module_bay_01_mat_panel_graphite_roughness.png remapped: res://assets/models/module_bay_01_mat_panel_graphite_roughness.png
+Loading resource: res://.godot/imported/module_bay_01_mat_panel_graphite_roughness.png-e9a1bbec79b6ef4c7af3d0b69f6e5c4a.ctex remapped: res://.godot/imported/module_bay_01_mat_panel_graphite_roughness.png-e9a1bbec79b6ef4c7af3d0b69f6e5c4a.ctex
+Completed load for: 'res://assets/models/module_bay_01_mat_panel_graphite_roughness.png' remapped 'res://assets/models/module_bay_01_mat_panel_graphite_roughness.png' at thread -1
+Completed load for: 'res://assets/models/module_bay_01.glb' remapped 'res://assets/models/module_bay_01.glb' at thread -1
+Completed load for: 'res://scenes/environment/module_room.tscn' remapped 'res://scenes/environment/module_room.tscn' at thread -1
+Loading resource: res://assets/models/workbench.glb remapped: res://assets/models/workbench.glb
+Loading resource: res://.godot/imported/workbench.glb-0c98bf47f05d9ba6025e187449744f2d.scn remapped: res://.godot/imported/workbench.glb-0c98bf47f05d9ba6025e187449744f2d.scn
+Loading resource: res://assets/models/workbench_mat_panel_graphite_roughness.png remapped: res://assets/models/workbench_mat_panel_graphite_roughness.png
+Loading resource: res://.godot/imported/workbench_mat_panel_graphite_roughness.png-5ac129bc4215908d21dc2861ad4ae120.ctex remapped: res://.godot/imported/workbench_mat_panel_graphite_roughness.png-5ac129bc4215908d21dc2861ad4ae120.ctex
+Completed load for: 'res://assets/models/workbench_mat_panel_graphite_roughness.png' remapped 'res://assets/models/workbench_mat_panel_graphite_roughness.png' at thread -1
+Loading resource: res://assets/models/workbench_mat_metal_dark_roughness.png remapped: res://assets/models/workbench_mat_metal_dark_roughness.png
+Loading resource: res://.godot/imported/workbench_mat_metal_dark_roughness.png-229830dfad5fdc20aa483c6616283493.ctex remapped: res://.godot/imported/workbench_mat_metal_dark_roughness.png-229830dfad5fdc20aa483c6616283493.ctex
+Completed load for: 'res://assets/models/workbench_mat_metal_dark_roughness.png' remapped 'res://assets/models/workbench_mat_metal_dark_roughness.png' at thread -1
+Loading resource: res://assets/models/workbench_mat_metal_brushed_roughness.png remapped: res://assets/models/workbench_mat_metal_brushed_roughness.png
+Loading resource: res://.godot/imported/workbench_mat_metal_brushed_roughness.png-29ed5c9a876b3abb0a796ca7a5ff2ec8.ctex remapped: res://.godot/imported/workbench_mat_metal_brushed_roughness.png-29ed5c9a876b3abb0a796ca7a5ff2ec8.ctex
+Completed load for: 'res://assets/models/workbench_mat_metal_brushed_roughness.png' remapped 'res://assets/models/workbench_mat_metal_brushed_roughness.png' at thread -1
+Completed load for: 'res://assets/models/workbench.glb' remapped 'res://assets/models/workbench.glb' at thread -1
+Loading resource: res://scripts/intervention/interactables/cascade_terminal.gd remapped: res://scripts/intervention/interactables/cascade_terminal.gd
+Completed load for: 'res://scripts/intervention/interactables/cascade_terminal.gd' remapped 'res://scripts/intervention/interactables/cascade_terminal.gd' at thread -1
+Loading resource: res://assets/models/mission_terminal.glb remapped: res://assets/models/mission_terminal.glb
+Loading resource: res://.godot/imported/mission_terminal.glb-4d49dc5740ae51c6686dc6354952694c.scn remapped: res://.godot/imported/mission_terminal.glb-4d49dc5740ae51c6686dc6354952694c.scn
+Loading resource: res://assets/models/mission_terminal_mat_metal_dark_roughness.png remapped: res://assets/models/mission_terminal_mat_metal_dark_roughness.png
+Loading resource: res://.godot/imported/mission_terminal_mat_metal_dark_roughness.png-043f196f325f3b661989c0814ced0126.ctex remapped: res://.godot/imported/mission_terminal_mat_metal_dark_roughness.png-043f196f325f3b661989c0814ced0126.ctex
+Completed load for: 'res://assets/models/mission_terminal_mat_metal_dark_roughness.png' remapped 'res://assets/models/mission_terminal_mat_metal_dark_roughness.png' at thread -1
+Loading resource: res://assets/models/mission_terminal_mat_metal_brushed_roughness.png remapped: res://assets/models/mission_terminal_mat_metal_brushed_roughness.png
+Loading resource: res://.godot/imported/mission_terminal_mat_metal_brushed_roughness.png-bc4a2bd198cde3ee09f095b1c70325cc.ctex remapped: res://.godot/imported/mission_terminal_mat_metal_brushed_roughness.png-bc4a2bd198cde3ee09f095b1c70325cc.ctex
+Completed load for: 'res://assets/models/mission_terminal_mat_metal_brushed_roughness.png' remapped 'res://assets/models/mission_terminal_mat_metal_brushed_roughness.png' at thread -1
+Completed load for: 'res://assets/models/mission_terminal.glb' remapped 'res://assets/models/mission_terminal.glb' at thread -1
+Loading resource: res://scripts/intervention/interactables/cascade_machine.gd remapped: res://scripts/intervention/interactables/cascade_machine.gd
+Completed load for: 'res://scripts/intervention/interactables/cascade_machine.gd' remapped 'res://scripts/intervention/interactables/cascade_machine.gd' at thread -1
+Loading resource: res://assets/models/repair_machine.glb remapped: res://assets/models/repair_machine.glb
+Loading resource: res://.godot/imported/repair_machine.glb-d1b2d4198e6ff21b9abc156a7bfdea5a.scn remapped: res://.godot/imported/repair_machine.glb-d1b2d4198e6ff21b9abc156a7bfdea5a.scn
+Loading resource: res://assets/models/repair_machine_mat_metal_brushed_roughness.png remapped: res://assets/models/repair_machine_mat_metal_brushed_roughness.png
+Loading resource: res://.godot/imported/repair_machine_mat_metal_brushed_roughness.png-62cfef5d1bc050a3a0ab54d36f5e74d8.ctex remapped: res://.godot/imported/repair_machine_mat_metal_brushed_roughness.png-62cfef5d1bc050a3a0ab54d36f5e74d8.ctex
+Completed load for: 'res://assets/models/repair_machine_mat_metal_brushed_roughness.png' remapped 'res://assets/models/repair_machine_mat_metal_brushed_roughness.png' at thread -1
+Loading resource: res://assets/models/repair_machine_mat_metal_dark_roughness.png remapped: res://assets/models/repair_machine_mat_metal_dark_roughness.png
+Loading resource: res://.godot/imported/repair_machine_mat_metal_dark_roughness.png-9783d04fc8c8148309bbde9513d1987f.ctex remapped: res://.godot/imported/repair_machine_mat_metal_dark_roughness.png-9783d04fc8c8148309bbde9513d1987f.ctex
+Completed load for: 'res://assets/models/repair_machine_mat_metal_dark_roughness.png' remapped 'res://assets/models/repair_machine_mat_metal_dark_roughness.png' at thread -1
+Loading resource: res://assets/models/repair_machine_mat_panel_graphite_roughness.png remapped: res://assets/models/repair_machine_mat_panel_graphite_roughness.png
+Loading resource: res://.godot/imported/repair_machine_mat_panel_graphite_roughness.png-3c2cbc5de5aa3f4d56088f42f72b33ce.ctex remapped: res://.godot/imported/repair_machine_mat_panel_graphite_roughness.png-3c2cbc5de5aa3f4d56088f42f72b33ce.ctex
+Completed load for: 'res://assets/models/repair_machine_mat_panel_graphite_roughness.png' remapped 'res://assets/models/repair_machine_mat_panel_graphite_roughness.png' at thread -1
+Completed load for: 'res://assets/models/repair_machine.glb' remapped 'res://assets/models/repair_machine.glb' at thread -1
+Loading resource: res://scripts/intervention/interactables/coolant_socket.gd remapped: res://scripts/intervention/interactables/coolant_socket.gd
+Completed load for: 'res://scripts/intervention/interactables/coolant_socket.gd' remapped 'res://scripts/intervention/interactables/coolant_socket.gd' at thread -1
+Loading resource: res://assets/models/socket_wrong.glb remapped: res://assets/models/socket_wrong.glb
+Loading resource: res://.godot/imported/socket_wrong.glb-1cf159eecbe41e450c035ec8b450bdf2.scn remapped: res://.godot/imported/socket_wrong.glb-1cf159eecbe41e450c035ec8b450bdf2.scn
+Loading resource: res://assets/models/socket_wrong_mat_metal_brushed_roughness.png remapped: res://assets/models/socket_wrong_mat_metal_brushed_roughness.png
+Loading resource: res://.godot/imported/socket_wrong_mat_metal_brushed_roughness.png-78c29367fbd69f78888b2b056e62a435.ctex remapped: res://.godot/imported/socket_wrong_mat_metal_brushed_roughness.png-78c29367fbd69f78888b2b056e62a435.ctex
+Completed load for: 'res://assets/models/socket_wrong_mat_metal_brushed_roughness.png' remapped 'res://assets/models/socket_wrong_mat_metal_brushed_roughness.png' at thread -1
+Loading resource: res://assets/models/socket_wrong_mat_metal_dark_roughness.png remapped: res://assets/models/socket_wrong_mat_metal_dark_roughness.png
+Loading resource: res://.godot/imported/socket_wrong_mat_metal_dark_roughness.png-8ea9267343b8b16de3cd9bf4e694fdf6.ctex remapped: res://.godot/imported/socket_wrong_mat_metal_dark_roughness.png-8ea9267343b8b16de3cd9bf4e694fdf6.ctex
+Completed load for: 'res://assets/models/socket_wrong_mat_metal_dark_roughness.png' remapped 'res://assets/models/socket_wrong_mat_metal_dark_roughness.png' at thread -1
+Completed load for: 'res://assets/models/socket_wrong.glb' remapped 'res://assets/models/socket_wrong.glb' at thread -1
+Loading resource: res://assets/models/socket_correct.glb remapped: res://assets/models/socket_correct.glb
+Loading resource: res://.godot/imported/socket_correct.glb-8badd1be6cdb321e920fb080bfcd49bd.scn remapped: res://.godot/imported/socket_correct.glb-8badd1be6cdb321e920fb080bfcd49bd.scn
+Loading resource: res://assets/models/socket_correct_mat_metal_brushed_roughness.png remapped: res://assets/models/socket_correct_mat_metal_brushed_roughness.png
+Loading resource: res://.godot/imported/socket_correct_mat_metal_brushed_roughness.png-8968986a397024975c24c55e821e37d0.ctex remapped: res://.godot/imported/socket_correct_mat_metal_brushed_roughness.png-8968986a397024975c24c55e821e37d0.ctex
+Completed load for: 'res://assets/models/socket_correct_mat_metal_brushed_roughness.png' remapped 'res://assets/models/socket_correct_mat_metal_brushed_roughness.png' at thread -1
+Loading resource: res://assets/models/socket_correct_mat_metal_dark_roughness.png remapped: res://assets/models/socket_correct_mat_metal_dark_roughness.png
+Loading resource: res://.godot/imported/socket_correct_mat_metal_dark_roughness.png-e6994161c75a59bab2f0bf45f5eee076.ctex remapped: res://.godot/imported/socket_correct_mat_metal_dark_roughness.png-e6994161c75a59bab2f0bf45f5eee076.ctex
+Completed load for: 'res://assets/models/socket_correct_mat_metal_dark_roughness.png' remapped 'res://assets/models/socket_correct_mat_metal_dark_roughness.png' at thread -1
+Completed load for: 'res://assets/models/socket_correct.glb' remapped 'res://assets/models/socket_correct.glb' at thread -1
+Loading resource: res://scripts/intervention/interactables/cascade_module.gd remapped: res://scripts/intervention/interactables/cascade_module.gd
+Completed load for: 'res://scripts/intervention/interactables/cascade_module.gd' remapped 'res://scripts/intervention/interactables/cascade_module.gd' at thread -1
+Loading resource: res://assets/models/energy_module.glb remapped: res://assets/models/energy_module.glb
+Loading resource: res://.godot/imported/energy_module.glb-33c6dea84c13038f5da6092559c77690.scn remapped: res://.godot/imported/energy_module.glb-33c6dea84c13038f5da6092559c77690.scn
+Loading resource: res://assets/models/energy_module_mat_metal_brushed_roughness.png remapped: res://assets/models/energy_module_mat_metal_brushed_roughness.png
+Loading resource: res://.godot/imported/energy_module_mat_metal_brushed_roughness.png-dfca4ac2aa57bac141a6afe1ba97b74b.ctex remapped: res://.godot/imported/energy_module_mat_metal_brushed_roughness.png-dfca4ac2aa57bac141a6afe1ba97b74b.ctex
+Completed load for: 'res://assets/models/energy_module_mat_metal_brushed_roughness.png' remapped 'res://assets/models/energy_module_mat_metal_brushed_roughness.png' at thread -1
+Loading resource: res://assets/models/energy_module_mat_metal_dark_roughness.png remapped: res://assets/models/energy_module_mat_metal_dark_roughness.png
+Loading resource: res://.godot/imported/energy_module_mat_metal_dark_roughness.png-3b37b5efad742336d90b8c376da725f8.ctex remapped: res://.godot/imported/energy_module_mat_metal_dark_roughness.png-3b37b5efad742336d90b8c376da725f8.ctex
+Completed load for: 'res://assets/models/energy_module_mat_metal_dark_roughness.png' remapped 'res://assets/models/energy_module_mat_metal_dark_roughness.png' at thread -1
+Completed load for: 'res://assets/models/energy_module.glb' remapped 'res://assets/models/energy_module.glb' at thread -1
+Loading resource: res://scripts/intervention/coolant_network.gd remapped: res://scripts/intervention/coolant_network.gd
+Completed load for: 'res://scripts/intervention/coolant_network.gd' remapped 'res://scripts/intervention/coolant_network.gd' at thread -1
+Loading resource: res://scripts/intervention/interactables/cascade_device.gd remapped: res://scripts/intervention/interactables/cascade_device.gd
+Completed load for: 'res://scripts/intervention/interactables/cascade_device.gd' remapped 'res://scripts/intervention/interactables/cascade_device.gd' at thread -1
+Loading resource: res://assets/models/intervention_v02/diagnostic_ai_station.glb remapped: res://assets/models/intervention_v02/diagnostic_ai_station.glb
+Loading resource: res://.godot/imported/diagnostic_ai_station.glb-4a2426529d29cb49718ea25bc48963cc.scn remapped: res://.godot/imported/diagnostic_ai_station.glb-4a2426529d29cb49718ea25bc48963cc.scn
+Loading resource: res://assets/models/intervention_v02/diagnostic_ai_station_mat_metal_dark_roughness.png remapped: res://assets/models/intervention_v02/diagnostic_ai_station_mat_metal_dark_roughness.png
+Loading resource: res://.godot/imported/diagnostic_ai_station_mat_metal_dark_roughness.png-09bf0822a45d598dafcaf1dfb0760580.ctex remapped: res://.godot/imported/diagnostic_ai_station_mat_metal_dark_roughness.png-09bf0822a45d598dafcaf1dfb0760580.ctex
+Completed load for: 'res://assets/models/intervention_v02/diagnostic_ai_station_mat_metal_dark_roughness.png' remapped 'res://assets/models/intervention_v02/diagnostic_ai_station_mat_metal_dark_roughness.png' at thread -1
+Loading resource: res://assets/models/intervention_v02/diagnostic_ai_station_mat_panel_graphite_roughness.png remapped: res://assets/models/intervention_v02/diagnostic_ai_station_mat_panel_graphite_roughness.png
+Loading resource: res://.godot/imported/diagnostic_ai_station_mat_panel_graphite_roughness.png-66a590a2c485b1a90543279ccd9ef9fb.ctex remapped: res://.godot/imported/diagnostic_ai_station_mat_panel_graphite_roughness.png-66a590a2c485b1a90543279ccd9ef9fb.ctex
+Completed load for: 'res://assets/models/intervention_v02/diagnostic_ai_station_mat_panel_graphite_roughness.png' remapped 'res://assets/models/intervention_v02/diagnostic_ai_station_mat_panel_graphite_roughness.png' at thread -1
+Loading resource: res://assets/models/intervention_v02/diagnostic_ai_station_mat_metal_brushed_roughness.png remapped: res://assets/models/intervention_v02/diagnostic_ai_station_mat_metal_brushed_roughness.png
+Loading resource: res://.godot/imported/diagnostic_ai_station_mat_metal_brushed_roughness.png-d21c5df3952fa243ad3787ae7d5d9113.ctex remapped: res://.godot/imported/diagnostic_ai_station_mat_metal_brushed_roughness.png-d21c5df3952fa243ad3787ae7d5d9113.ctex
+Completed load for: 'res://assets/models/intervention_v02/diagnostic_ai_station_mat_metal_brushed_roughness.png' remapped 'res://assets/models/intervention_v02/diagnostic_ai_station_mat_metal_brushed_roughness.png' at thread -1
+Completed load for: 'res://assets/models/intervention_v02/diagnostic_ai_station.glb' remapped 'res://assets/models/intervention_v02/diagnostic_ai_station.glb' at thread -1
+Loading resource: res://assets/models/intervention_v02/scanner_dock.glb remapped: res://assets/models/intervention_v02/scanner_dock.glb
+Loading resource: res://.godot/imported/scanner_dock.glb-9949cbabd9d2f0cab1b210e1c1ca055c.scn remapped: res://.godot/imported/scanner_dock.glb-9949cbabd9d2f0cab1b210e1c1ca055c.scn
+Loading resource: res://assets/models/intervention_v02/scanner_dock_mat_metal_dark_roughness.png remapped: res://assets/models/intervention_v02/scanner_dock_mat_metal_dark_roughness.png
+Loading resource: res://.godot/imported/scanner_dock_mat_metal_dark_roughness.png-fefac83bd7e2a4ac6e94216500386db4.ctex remapped: res://.godot/imported/scanner_dock_mat_metal_dark_roughness.png-fefac83bd7e2a4ac6e94216500386db4.ctex
+Completed load for: 'res://assets/models/intervention_v02/scanner_dock_mat_metal_dark_roughness.png' remapped 'res://assets/models/intervention_v02/scanner_dock_mat_metal_dark_roughness.png' at thread -1
+Loading resource: res://assets/models/intervention_v02/scanner_dock_mat_metal_brushed_roughness.png remapped: res://assets/models/intervention_v02/scanner_dock_mat_metal_brushed_roughness.png
+Loading resource: res://.godot/imported/scanner_dock_mat_metal_brushed_roughness.png-068a4b8f0af0c9ebeaa52aeabef29f6e.ctex remapped: res://.godot/imported/scanner_dock_mat_metal_brushed_roughness.png-068a4b8f0af0c9ebeaa52aeabef29f6e.ctex
+Completed load for: 'res://assets/models/intervention_v02/scanner_dock_mat_metal_brushed_roughness.png' remapped 'res://assets/models/intervention_v02/scanner_dock_mat_metal_brushed_roughness.png' at thread -1
+Completed load for: 'res://assets/models/intervention_v02/scanner_dock.glb' remapped 'res://assets/models/intervention_v02/scanner_dock.glb' at thread -1
+Loading resource: res://assets/models/intervention_v02/diagnostic_scanner.glb remapped: res://assets/models/intervention_v02/diagnostic_scanner.glb
+Loading resource: res://.godot/imported/diagnostic_scanner.glb-031d844d802497ba7593427563a4c17f.scn remapped: res://.godot/imported/diagnostic_scanner.glb-031d844d802497ba7593427563a4c17f.scn
+Loading resource: res://assets/models/intervention_v02/diagnostic_scanner_mat_metal_brushed_roughness.png remapped: res://assets/models/intervention_v02/diagnostic_scanner_mat_metal_brushed_roughness.png
+Loading resource: res://.godot/imported/diagnostic_scanner_mat_metal_brushed_roughness.png-cf3a480a17062db217316baf7281217f.ctex remapped: res://.godot/imported/diagnostic_scanner_mat_metal_brushed_roughness.png-cf3a480a17062db217316baf7281217f.ctex
+Completed load for: 'res://assets/models/intervention_v02/diagnostic_scanner_mat_metal_brushed_roughness.png' remapped 'res://assets/models/intervention_v02/diagnostic_scanner_mat_metal_brushed_roughness.png' at thread -1
+Loading resource: res://assets/models/intervention_v02/diagnostic_scanner_mat_metal_dark_roughness.png remapped: res://assets/models/intervention_v02/diagnostic_scanner_mat_metal_dark_roughness.png
+Loading resource: res://.godot/imported/diagnostic_scanner_mat_metal_dark_roughness.png-d818d815040f0940e3ee7f05844ce037.ctex remapped: res://.godot/imported/diagnostic_scanner_mat_metal_dark_roughness.png-d818d815040f0940e3ee7f05844ce037.ctex
+Completed load for: 'res://assets/models/intervention_v02/diagnostic_scanner_mat_metal_dark_roughness.png' remapped 'res://assets/models/intervention_v02/diagnostic_scanner_mat_metal_dark_roughness.png' at thread -1
+Completed load for: 'res://assets/models/intervention_v02/diagnostic_scanner.glb' remapped 'res://assets/models/intervention_v02/diagnostic_scanner.glb' at thread -1
+Loading resource: res://assets/models/mb03/coolant_manifold.glb remapped: res://assets/models/mb03/coolant_manifold.glb
+Loading resource: res://.godot/imported/coolant_manifold.glb-110d57794a2ff58f9811b22822cc2eeb.scn remapped: res://.godot/imported/coolant_manifold.glb-110d57794a2ff58f9811b22822cc2eeb.scn
+Loading resource: res://assets/models/mb03/coolant_manifold_mat_panel_graphite_roughness.png remapped: res://assets/models/mb03/coolant_manifold_mat_panel_graphite_roughness.png
+Loading resource: res://.godot/imported/coolant_manifold_mat_panel_graphite_roughness.png-05188811dd6a7b9a874772cd6cc93404.ctex remapped: res://.godot/imported/coolant_manifold_mat_panel_graphite_roughness.png-05188811dd6a7b9a874772cd6cc93404.ctex
+Completed load for: 'res://assets/models/mb03/coolant_manifold_mat_panel_graphite_roughness.png' remapped 'res://assets/models/mb03/coolant_manifold_mat_panel_graphite_roughness.png' at thread -1
+Loading resource: res://assets/models/mb03/coolant_manifold_mat_metal_brushed_roughness.png remapped: res://assets/models/mb03/coolant_manifold_mat_metal_brushed_roughness.png
+Loading resource: res://.godot/imported/coolant_manifold_mat_metal_brushed_roughness.png-5d8cb4f8cfe46a9305554c546cf3e078.ctex remapped: res://.godot/imported/coolant_manifold_mat_metal_brushed_roughness.png-5d8cb4f8cfe46a9305554c546cf3e078.ctex
+Completed load for: 'res://assets/models/mb03/coolant_manifold_mat_metal_brushed_roughness.png' remapped 'res://assets/models/mb03/coolant_manifold_mat_metal_brushed_roughness.png' at thread -1
+Loading resource: res://assets/models/mb03/coolant_manifold_mat_metal_dark_roughness.png remapped: res://assets/models/mb03/coolant_manifold_mat_metal_dark_roughness.png
+Loading resource: res://.godot/imported/coolant_manifold_mat_metal_dark_roughness.png-68a02f674ddcf32d2009165a2591680e.ctex remapped: res://.godot/imported/coolant_manifold_mat_metal_dark_roughness.png-68a02f674ddcf32d2009165a2591680e.ctex
+Completed load for: 'res://assets/models/mb03/coolant_manifold_mat_metal_dark_roughness.png' remapped 'res://assets/models/mb03/coolant_manifold_mat_metal_dark_roughness.png' at thread -1
+Completed load for: 'res://assets/models/mb03/coolant_manifold.glb' remapped 'res://assets/models/mb03/coolant_manifold.glb' at thread -1
+Loading resource: res://scripts/intervention/interactables/coolant_control.gd remapped: res://scripts/intervention/interactables/coolant_control.gd
+Completed load for: 'res://scripts/intervention/interactables/coolant_control.gd' remapped 'res://scripts/intervention/interactables/coolant_control.gd' at thread -1
+Loading resource: res://assets/models/mb03/primary_valve.glb remapped: res://assets/models/mb03/primary_valve.glb
+Loading resource: res://.godot/imported/primary_valve.glb-9c207cf30ea6f0ba7aad4a950ea10f08.scn remapped: res://.godot/imported/primary_valve.glb-9c207cf30ea6f0ba7aad4a950ea10f08.scn
+Loading resource: res://assets/models/mb03/primary_valve_mat_metal_brushed_roughness.png remapped: res://assets/models/mb03/primary_valve_mat_metal_brushed_roughness.png
+Loading resource: res://.godot/imported/primary_valve_mat_metal_brushed_roughness.png-03885c81f8720d5e89989cd7d05979c4.ctex remapped: res://.godot/imported/primary_valve_mat_metal_brushed_roughness.png-03885c81f8720d5e89989cd7d05979c4.ctex
+Completed load for: 'res://assets/models/mb03/primary_valve_mat_metal_brushed_roughness.png' remapped 'res://assets/models/mb03/primary_valve_mat_metal_brushed_roughness.png' at thread -1
+Loading resource: res://assets/models/mb03/primary_valve_mat_metal_dark_roughness.png remapped: res://assets/models/mb03/primary_valve_mat_metal_dark_roughness.png
+Loading resource: res://.godot/imported/primary_valve_mat_metal_dark_roughness.png-7f90f53a8965d0176f7570e9cf031aa6.ctex remapped: res://.godot/imported/primary_valve_mat_metal_dark_roughness.png-7f90f53a8965d0176f7570e9cf031aa6.ctex
+Completed load for: 'res://assets/models/mb03/primary_valve_mat_metal_dark_roughness.png' remapped 'res://assets/models/mb03/primary_valve_mat_metal_dark_roughness.png' at thread -1
+Completed load for: 'res://assets/models/mb03/primary_valve.glb' remapped 'res://assets/models/mb03/primary_valve.glb' at thread -1
+Loading resource: res://assets/models/mb03/pressure_regulator.glb remapped: res://assets/models/mb03/pressure_regulator.glb
+Loading resource: res://.godot/imported/pressure_regulator.glb-186166511f6812e85e84517bdfb4bb89.scn remapped: res://.godot/imported/pressure_regulator.glb-186166511f6812e85e84517bdfb4bb89.scn
+Loading resource: res://assets/models/mb03/pressure_regulator_mat_metal_brushed_roughness.png remapped: res://assets/models/mb03/pressure_regulator_mat_metal_brushed_roughness.png
+Loading resource: res://.godot/imported/pressure_regulator_mat_metal_brushed_roughness.png-bf1c54a2fb0f213baffe69de630655f1.ctex remapped: res://.godot/imported/pressure_regulator_mat_metal_brushed_roughness.png-bf1c54a2fb0f213baffe69de630655f1.ctex
+Completed load for: 'res://assets/models/mb03/pressure_regulator_mat_metal_brushed_roughness.png' remapped 'res://assets/models/mb03/pressure_regulator_mat_metal_brushed_roughness.png' at thread -1
+Loading resource: res://assets/models/mb03/pressure_regulator_mat_metal_dark_roughness.png remapped: res://assets/models/mb03/pressure_regulator_mat_metal_dark_roughness.png
+Loading resource: res://.godot/imported/pressure_regulator_mat_metal_dark_roughness.png-74f720e1e678bcd5f51d601d9233f499.ctex remapped: res://.godot/imported/pressure_regulator_mat_metal_dark_roughness.png-74f720e1e678bcd5f51d601d9233f499.ctex
+Completed load for: 'res://assets/models/mb03/pressure_regulator_mat_metal_dark_roughness.png' remapped 'res://assets/models/mb03/pressure_regulator_mat_metal_dark_roughness.png' at thread -1
+Completed load for: 'res://assets/models/mb03/pressure_regulator.glb' remapped 'res://assets/models/mb03/pressure_regulator.glb' at thread -1
+Loading resource: res://assets/models/mb03/bypass_valve.glb remapped: res://assets/models/mb03/bypass_valve.glb
+Loading resource: res://.godot/imported/bypass_valve.glb-5a4a3e86685f203ea182c1a9a067a570.scn remapped: res://.godot/imported/bypass_valve.glb-5a4a3e86685f203ea182c1a9a067a570.scn
+Loading resource: res://assets/models/mb03/bypass_valve_mat_metal_brushed_roughness.png remapped: res://assets/models/mb03/bypass_valve_mat_metal_brushed_roughness.png
+Loading resource: res://.godot/imported/bypass_valve_mat_metal_brushed_roughness.png-63417731b2f62d61cb0574cc8b8785fa.ctex remapped: res://.godot/imported/bypass_valve_mat_metal_brushed_roughness.png-63417731b2f62d61cb0574cc8b8785fa.ctex
+Completed load for: 'res://assets/models/mb03/bypass_valve_mat_metal_brushed_roughness.png' remapped 'res://assets/models/mb03/bypass_valve_mat_metal_brushed_roughness.png' at thread -1
+Loading resource: res://assets/models/mb03/bypass_valve_mat_metal_dark_roughness.png remapped: res://assets/models/mb03/bypass_valve_mat_metal_dark_roughness.png
+Loading resource: res://.godot/imported/bypass_valve_mat_metal_dark_roughness.png-c7d05db9195153b23afed95c324fc114.ctex remapped: res://.godot/imported/bypass_valve_mat_metal_dark_roughness.png-c7d05db9195153b23afed95c324fc114.ctex
+Completed load for: 'res://assets/models/mb03/bypass_valve_mat_metal_dark_roughness.png' remapped 'res://assets/models/mb03/bypass_valve_mat_metal_dark_roughness.png' at thread -1
+Completed load for: 'res://assets/models/mb03/bypass_valve.glb' remapped 'res://assets/models/mb03/bypass_valve.glb' at thread -1
+Loading resource: res://scripts/intervention/interactables/coolant_instrument.gd remapped: res://scripts/intervention/interactables/coolant_instrument.gd
+Completed load for: 'res://scripts/intervention/interactables/coolant_instrument.gd' remapped 'res://scripts/intervention/interactables/coolant_instrument.gd' at thread -1
+Loading resource: res://assets/models/mb03/pressure_gauge.glb remapped: res://assets/models/mb03/pressure_gauge.glb
+Loading resource: res://.godot/imported/pressure_gauge.glb-9ce296022873ccf31a1a0abdb4a39598.scn remapped: res://.godot/imported/pressure_gauge.glb-9ce296022873ccf31a1a0abdb4a39598.scn
+Loading resource: res://assets/models/mb03/pressure_gauge_mat_metal_brushed_roughness.png remapped: res://assets/models/mb03/pressure_gauge_mat_metal_brushed_roughness.png
+Loading resource: res://.godot/imported/pressure_gauge_mat_metal_brushed_roughness.png-4785450fff9113b7804e995fb2497d26.ctex remapped: res://.godot/imported/pressure_gauge_mat_metal_brushed_roughness.png-4785450fff9113b7804e995fb2497d26.ctex
+Completed load for: 'res://assets/models/mb03/pressure_gauge_mat_metal_brushed_roughness.png' remapped 'res://assets/models/mb03/pressure_gauge_mat_metal_brushed_roughness.png' at thread -1
+Loading resource: res://assets/models/mb03/pressure_gauge_mat_metal_dark_roughness.png remapped: res://assets/models/mb03/pressure_gauge_mat_metal_dark_roughness.png
+Loading resource: res://.godot/imported/pressure_gauge_mat_metal_dark_roughness.png-01a4ff51eee316a7fca4cba6537ecf43.ctex remapped: res://.godot/imported/pressure_gauge_mat_metal_dark_roughness.png-01a4ff51eee316a7fca4cba6537ecf43.ctex
+Completed load for: 'res://assets/models/mb03/pressure_gauge_mat_metal_dark_roughness.png' remapped 'res://assets/models/mb03/pressure_gauge_mat_metal_dark_roughness.png' at thread -1
+Completed load for: 'res://assets/models/mb03/pressure_gauge.glb' remapped 'res://assets/models/mb03/pressure_gauge.glb' at thread -1
+Loading resource: res://assets/models/mb03/pressure_gauge.glb remapped: res://assets/models/mb03/pressure_gauge.glb
+Loading resource: res://.godot/imported/pressure_gauge.glb-9ce296022873ccf31a1a0abdb4a39598.scn remapped: res://.godot/imported/pressure_gauge.glb-9ce296022873ccf31a1a0abdb4a39598.scn
+Loading resource: res://assets/models/mb03/pressure_gauge_mat_metal_brushed_roughness.png remapped: res://assets/models/mb03/pressure_gauge_mat_metal_brushed_roughness.png
+Loading resource: res://.godot/imported/pressure_gauge_mat_metal_brushed_roughness.png-4785450fff9113b7804e995fb2497d26.ctex remapped: res://.godot/imported/pressure_gauge_mat_metal_brushed_roughness.png-4785450fff9113b7804e995fb2497d26.ctex
+Completed load for: 'res://assets/models/mb03/pressure_gauge_mat_metal_brushed_roughness.png' remapped 'res://assets/models/mb03/pressure_gauge_mat_metal_brushed_roughness.png' at thread -1
+Loading resource: res://assets/models/mb03/pressure_gauge_mat_metal_dark_roughness.png remapped: res://assets/models/mb03/pressure_gauge_mat_metal_dark_roughness.png
+Loading resource: res://.godot/imported/pressure_gauge_mat_metal_dark_roughness.png-01a4ff51eee316a7fca4cba6537ecf43.ctex remapped: res://.godot/imported/pressure_gauge_mat_metal_dark_roughness.png-01a4ff51eee316a7fca4cba6537ecf43.ctex
+Completed load for: 'res://assets/models/mb03/pressure_gauge_mat_metal_dark_roughness.png' remapped 'res://assets/models/mb03/pressure_gauge_mat_metal_dark_roughness.png' at thread -1
+Completed load for: 'res://assets/models/mb03/pressure_gauge.glb' remapped 'res://assets/models/mb03/pressure_gauge.glb' at thread -1
+Loading resource: res://assets/models/mb03/cooling_core.glb remapped: res://assets/models/mb03/cooling_core.glb
+Loading resource: res://.godot/imported/cooling_core.glb-0204d5755edca017b1069a88856d5607.scn remapped: res://.godot/imported/cooling_core.glb-0204d5755edca017b1069a88856d5607.scn
+Loading resource: res://assets/models/mb03/cooling_core_mat_metal_dark_roughness.png remapped: res://assets/models/mb03/cooling_core_mat_metal_dark_roughness.png
+Loading resource: res://.godot/imported/cooling_core_mat_metal_dark_roughness.png-c5f205d41f75101593d05b88c16a6ea2.ctex remapped: res://.godot/imported/cooling_core_mat_metal_dark_roughness.png-c5f205d41f75101593d05b88c16a6ea2.ctex
+Completed load for: 'res://assets/models/mb03/cooling_core_mat_metal_dark_roughness.png' remapped 'res://assets/models/mb03/cooling_core_mat_metal_dark_roughness.png' at thread -1
+Loading resource: res://assets/models/mb03/cooling_core_mat_metal_brushed_roughness.png remapped: res://assets/models/mb03/cooling_core_mat_metal_brushed_roughness.png
+Loading resource: res://.godot/imported/cooling_core_mat_metal_brushed_roughness.png-0f561ec953726a63d137179366768058.ctex remapped: res://.godot/imported/cooling_core_mat_metal_brushed_roughness.png-0f561ec953726a63d137179366768058.ctex
+Completed load for: 'res://assets/models/mb03/cooling_core_mat_metal_brushed_roughness.png' remapped 'res://assets/models/mb03/cooling_core_mat_metal_brushed_roughness.png' at thread -1
+Completed load for: 'res://assets/models/mb03/cooling_core.glb' remapped 'res://assets/models/mb03/cooling_core.glb' at thread -1
+Loading resource: res://assets/models/mb03/coolant_routes.glb remapped: res://assets/models/mb03/coolant_routes.glb
+Loading resource: res://.godot/imported/coolant_routes.glb-5c5627e2883614559b95d3ca7c069be9.scn remapped: res://.godot/imported/coolant_routes.glb-5c5627e2883614559b95d3ca7c069be9.scn
+Loading resource: res://assets/models/mb03/coolant_routes_mat_metal_brushed_roughness.png remapped: res://assets/models/mb03/coolant_routes_mat_metal_brushed_roughness.png
+Loading resource: res://.godot/imported/coolant_routes_mat_metal_brushed_roughness.png-717f3975277b71072187e41b9fce3c87.ctex remapped: res://.godot/imported/coolant_routes_mat_metal_brushed_roughness.png-717f3975277b71072187e41b9fce3c87.ctex
+Completed load for: 'res://assets/models/mb03/coolant_routes_mat_metal_brushed_roughness.png' remapped 'res://assets/models/mb03/coolant_routes_mat_metal_brushed_roughness.png' at thread -1
+Loading resource: res://assets/models/mb03/coolant_routes_mat_metal_dark_roughness.png remapped: res://assets/models/mb03/coolant_routes_mat_metal_dark_roughness.png
+Loading resource: res://.godot/imported/coolant_routes_mat_metal_dark_roughness.png-1188f9f793d45d525babeae6ab879649.ctex remapped: res://.godot/imported/coolant_routes_mat_metal_dark_roughness.png-1188f9f793d45d525babeae6ab879649.ctex
+Completed load for: 'res://assets/models/mb03/coolant_routes_mat_metal_dark_roughness.png' remapped 'res://assets/models/mb03/coolant_routes_mat_metal_dark_roughness.png' at thread -1
+Completed load for: 'res://assets/models/mb03/coolant_routes.glb' remapped 'res://assets/models/mb03/coolant_routes.glb' at thread -1
+Loading resource: res://scenes/intervention/cascade_player.tscn remapped: res://scenes/intervention/cascade_player.tscn
+Loading resource: res://scripts/intervention/cascade_player.gd remapped: res://scripts/intervention/cascade_player.gd
+Completed load for: 'res://scripts/intervention/cascade_player.gd' remapped 'res://scripts/intervention/cascade_player.gd' at thread -1
+Completed load for: 'res://scenes/intervention/cascade_player.tscn' remapped 'res://scenes/intervention/cascade_player.tscn' at thread -1
+Loading resource: res://scripts/program/operations_console.gd remapped: res://scripts/program/operations_console.gd
+Completed load for: 'res://scripts/program/operations_console.gd' remapped 'res://scripts/program/operations_console.gd' at thread -1
+Loading resource: res://assets/models/mission_terminal.glb remapped: res://assets/models/mission_terminal.glb
+Loading resource: res://.godot/imported/mission_terminal.glb-4d49dc5740ae51c6686dc6354952694c.scn remapped: res://.godot/imported/mission_terminal.glb-4d49dc5740ae51c6686dc6354952694c.scn
+Completed load for: 'res://assets/models/mission_terminal.glb' remapped 'res://assets/models/mission_terminal.glb' at thread -1
+Loading resource: res://scripts/localization/language_selector.gd remapped: res://scripts/localization/language_selector.gd
+Completed load for: 'res://scripts/localization/language_selector.gd' remapped 'res://scripts/localization/language_selector.gd' at thread -1
+RAW_EVENT game_started index=0
+XR: Clearing primary interface
+XR: Removed interface "Native mobile"
+XR: Removed interface "OpenXR"

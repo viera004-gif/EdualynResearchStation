@@ -1,0 +1,30 @@
+{
+  "coolant_manifold": {
+    "mesh_objects": 4,
+    "triangles": 2736
+  },
+  "primary_valve": {
+    "mesh_objects": 6,
+    "triangles": 2828
+  },
+  "pressure_regulator": {
+    "mesh_objects": 7,
+    "triangles": 3348
+  },
+  "bypass_valve": {
+    "mesh_objects": 4,
+    "triangles": 1928
+  },
+  "cooling_core": {
+    "mesh_objects": 6,
+    "triangles": 4296
+  },
+  "pressure_gauge": {
+    "mesh_objects": 6,
+    "triangles": 2888
+  },
+  "coolant_routes": {
+    "mesh_objects": 7,
+    "triangles": 4620
+  }
+}

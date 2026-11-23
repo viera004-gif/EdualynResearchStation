@@ -1,0 +1,79 @@
+﻿# Godot
+.godot/
+.import/
+export.cfg
+export_presets.cfg
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+*secret*
+*token*
+
+# Logs / temporary
+logs/
+log/
+temp/
+tmp/
+*.log
+*.tmp
+*.bak
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Builds / exports
+build/
+builds/
+export/
+exports/
+dist/
+
+# Local runtime / saves / queues
+save/
+saves/
+user_data/
+runtime_data/
+offline_queue/
+telemetry_queue/
+
+# Databases and backups
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+*.sqlite-shm
+*.sqlite-wal
+*backup*
+*Backup*
+
+# Verification runtime caches if generated
+verification/**/stdout*
+verification/**/stderr*
+verification/**/cache/
+
+# Blender caches / autosaves
+*.blend1
+*.blend2
+*.blend@
+*.autosave
+
+# Local project cache
+.cache/
+
+# Godot generated user data / shader caches
+**/userdata/
+**/shader_cache/
+**/*.vulkan.cache

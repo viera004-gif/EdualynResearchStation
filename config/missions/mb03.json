@@ -1,0 +1,32 @@
+{
+  "slot": "MB03",
+  "mission_id": "MODULE_BAY_03_COOLANT_PRESSURE",
+  "version": "coolant_pressure_v0_1",
+  "text_namespace": "coolant_pressure",
+  "app_version": "research_station_v0_4",
+  "scene": "res://scenes/main/coolant_pressure_imbalance.tscn",
+  "title_key": "mission.coolant_pressure.title",
+  "objective_key": "mission.coolant_pressure.objective",
+  "completion_key": "mission.coolant_pressure.complete",
+  "initial_state": "COOLING_UNSTABLE",
+  "dependency_graph": [["SOURCE_FLOW", "PRIMARY_FLOW"], ["PRIMARY_FLOW", "REGULATED_PRESSURE"], ["REGULATED_PRESSURE", "CORE_SUPPLY"], ["BYPASS_DIVERSION", "CORE_SUPPLY"], ["CORE_SUPPLY", "THERMAL_RECOVERY"], ["THERMAL_RECOVERY", "SYSTEM_ACTIVE"]],
+  "available_tools": ["DIAGNOSTIC_SCANNER", "DIAGNOSTIC_AI", "SOURCE_GAUGE", "CORE_GAUGE"],
+  "failure_states": ["LOW_FLOW", "PRESSURE_OSCILLATION", "PRESSURE_EXCESS", "DIVERTED_FLOW"],
+  "valid_solution_states": ["SYSTEM_ACTIVE"],
+  "help_policy": {
+    "policy_version": "prototype_coolant_help_v0_1",
+    "parameter_status": "PROVISIONAL GAMEPLAY PARAMETERS - NOT VALIDATED PSYCHOMETRIC OR CLINICAL CUT-OFFS",
+    "adaptive_help": {"exact_repeat_nudge_count": 3, "prolonged_no_progress_seconds": 75, "level2_after_help_requests": 1, "level3_after_help_requests": 2}
+  },
+  "tutorial_level": "instrument_only",
+  "scaffolding_level": "minimal",
+  "show_controls_footer": false,
+  "early_help_exploration_count": 3,
+  "configuration_order": ["A", "B", "C"],
+  "start_configurations": {
+    "A": {"primary": 3, "regulator": 2, "bypass": 3},
+    "B": {"primary": 3, "regulator": 0, "bypass": 0},
+    "C": {"primary": 2, "regulator": 1, "bypass": 1}
+  },
+  "content_use": "intervention_only_not_protected_assessment"
+}

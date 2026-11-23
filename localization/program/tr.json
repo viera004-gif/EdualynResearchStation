@@ -1,0 +1,11 @@
+{
+  "program.console": "MODÜL BÖLMESİ\n01: {m1}\n02: {m2}",
+  "program.available": "HAZIR",
+  "program.locked": "KİLİTLİ",
+  "program.complete": "TAMAMLANDI",
+  "program.enter_mb02": "[F] Görev 02'ye başla / Röle Kutup Arızası",
+  "program.return_mb01": "[F] Görev 01'e dön / Güç Bağlantı Arızası",
+  "program.unlock_hint": "Görev 02, Görev 01 tamamlandığında açılır",
+  "program.console_three": "MODÜL BÖLMESİ\n01: {m1}\n02: {m2}\n03: {m3}",
+  "program.enter_mb03": "[F] Görev 03'e başla / Soğutma Basınç Dengesizliği"
+}

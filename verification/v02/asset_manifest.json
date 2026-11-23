@@ -1,0 +1,26 @@
+{
+  "cooling_regulator": {
+    "mesh_objects": 21,
+    "triangles": 7652
+  },
+  "auxiliary_relay": {
+    "mesh_objects": 16,
+    "triangles": 4144
+  },
+  "scanner_dock": {
+    "mesh_objects": 9,
+    "triangles": 3684
+  },
+  "diagnostic_scanner": {
+    "mesh_objects": 15,
+    "triangles": 3436
+  },
+  "diagnostic_ai_station": {
+    "mesh_objects": 15,
+    "triangles": 6412
+  },
+  "power_routes": {
+    "mesh_objects": 20,
+    "triangles": 2496
+  }
+}

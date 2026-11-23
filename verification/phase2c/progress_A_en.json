@@ -1,0 +1,10 @@
+{
+	"completed": [
+		"MB01",
+		"MB02",
+		"MB03"
+	],
+	"configuration_cursors": {},
+	"program_id": "MODULE_BAY_INTERVENTION_PROGRAM",
+	"schema_version": 1
+}

@@ -1,0 +1,2 @@
+C:\Users\DELL\Documents\EdualynResearchStation\art_source\blender\scripts\build_coolant_pressure.py:2: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  from pathlib import Path

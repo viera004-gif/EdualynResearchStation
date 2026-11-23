@@ -1,0 +1,113 @@
+extends "res://verification/localization/localization_probe.gd"
+func screenshot(name: String) -> void:
+	await RenderingServer.frame_post_draw
+	check(bay.get_viewport().get_texture().get_image().save_png("res://verification/phase2b/mb02_" + selected + "_" + name + ".png") == OK, "capture_" + name)
+func target_unit(unit: Node) -> void:
+	await face(unit, Vector3(unit.global_position.x, 0, -2.05), Vector3(0, 1.35, .3))
+func turn(unit: Node, direction: int) -> void:
+	await target_unit(unit)
+	await action("rotate_right" if direction > 0 else "rotate_left")
+	await pause(.4)
+	check(absf(wrapf(unit.rotor.rotation.z - unit.orientation_step * PI / 2, -PI, PI)) < .02, "physical_turn_" + unit.interaction_id)
+func test_route(expected: String) -> void:
+	await face(bay.route_tester, Vector3(-2.2, 0, -2.05), Vector3(0, 1.25, .3))
+	await action("interact")
+	await pause(.65)
+	check(bay.route_state == expected, "failure_" + expected)
+func scan(node: Node, expected: String) -> void:
+	if node == bay.correct_socket:
+		await face(node, Vector3(2.05, 0, .1), Vector3(0, .11, 0))
+	else:
+		await target_unit(node)
+	await action("place")
+	await pause(.8)
+	check(bay.scanner.screen.get_meta("localization_key") == expected, "scan_" + expected)
+	check(bay.scanner.screen.text == bay.localization.text(expected), "translated_" + expected)
+func run(world: Node) -> void:
+	bay = world
+	selected = bay.localization.locale
+	await pause(2)
+	check(RenderingServer.get_rendering_device() != null, "gpu_mobile")
+	check(bay.definition.data.mission_id == "MODULE_BAY_02_RELAY_POLARITY", "mission_identity")
+	check(bay.tutorial_label.text.is_empty() and bay.definition.data.scaffolding_level == "faded", "faded_onboarding")
+	check(bay.module.state == bay.module.State.PLACED and bay.correct_socket.locked, "functional_module_already_seated")
+	check(bay.find_children("ValveWheel", "Node3D", true, false).is_empty(), "different_problem_no_cooling_sequence")
+	check(bay.relay_a.rotor.get_child_count() > 4 and bay.relay_b.rotor.get_child_count() > 4, "authored_rotary_assemblies")
+	var start: Vector3 = bay.player.position
+	Input.action_press("move_forward")
+	await pause(.4)
+	Input.action_release("move_forward")
+	await pause(.1)
+	check(start.distance_to(bay.player.position) > .3, "movement")
+	await action("language")
+	await select_language(selected)
+	await test_route("BOTH_RELAYS_MISMATCHED")
+	await test_route("BOTH_RELAYS_MISMATCHED")
+	await test_route("BOTH_RELAYS_MISMATCHED")
+	check(bay.history.exact_repeats == 2 and bay.help_salient, "exact_repeat_and_optional_salience")
+	await screenshot("both_mismatch")
+	await help()
+	check(guidance_key() == "help.level1.relay_polarity.early", "help_l1")
+	await target_unit(bay.relay_a)
+	await action("inspect")
+	await face(bay.scanner, Vector3(-3.2, 0, 2.9), Vector3(0, .2, 0))
+	await action("interact")
+	check(bay.player.held == bay.scanner and bay.tutorial_label.text.is_empty(), "physical_scanner_faded_tutorial")
+	await scan(bay.relay_a, "polarity.scan_a_mismatch")
+	await scan(bay.relay_b, "polarity.scan_b_mismatch")
+	await scan(bay.correct_socket, "polarity.coupler_unstable")
+	await help()
+	check(guidance_key() == "help.level2.relay_polarity.a", "help_l2")
+	await help()
+	check(guidance_key() == "help.level3.relay_polarity.a", "help_l3_a")
+	await switch_and_restore()
+	await screenshot("support")
+	await turn(bay.relay_a, 1)
+	await turn(bay.relay_a, 1)
+	check(bay.relay_a.aligned() and not bay.relay_b.aligned(), "a_correct_b_incorrect")
+	await test_route("PHASE_COLLAPSE_AT_B")
+	await scan(bay.relay_a, "polarity.scan_a_stable")
+	await screenshot("power_reaches_b")
+	await help()
+	check(guidance_key() == "help.level3.relay_polarity.b", "help_l3_b")
+	await turn(bay.relay_a, -1)
+	await turn(bay.relay_b, 1)
+	await turn(bay.relay_b, 1)
+	check(not bay.relay_a.aligned() and bay.relay_b.aligned(), "a_incorrect_b_correct")
+	await test_route("INPUT_BLOCKED_AT_A")
+	await scan(bay.relay_b, "polarity.scan_b_input_lost")
+	await screenshot("b_aligned_input_lost")
+	await switch_and_restore()
+	await turn(bay.relay_a, 1)
+	check(bay.relay_a.aligned() and bay.relay_b.aligned() and not bay.route_ready, "both_aligned_manual_test_still_required")
+	await help()
+	check(guidance_key() == "help.level3.relay_polarity.test" and not bay.route_ready, "help_never_solves")
+	await face(bay.route_tester, Vector3(-2.2, 0, -2.05), Vector3(0, 1.25, .3))
+	await action("interact")
+	check(bay.route_ready and bay.machine.state == bay.machine.State.STARTUP, "manual_valid_route_starts_core")
+	await scan(bay.correct_socket, "polarity.coupler_stable")
+	await pause(5)
+	check(bay.stage == "SYSTEM_ACTIVE" and bay.phase == bay.Phase.COMPLETE, "recovery_without_restart_completion")
+	check("MB02" in bay.program.completed and bay.program.save_error == OK, "local_completion_saved")
+	await switch_and_restore()
+	await screenshot("complete")
+	var deadline := Time.get_ticks_msec() + 12000
+	if not bay.telemetry.base_url.contains(":1/"):
+		while not bay.telemetry.session_closed and Time.get_ticks_msec() < deadline:
+			await wait_frames(1)
+	check(bay.telemetry.pending.size() > 0 if bay.telemetry.base_url.contains(":1/") else bay.telemetry.session_closed, "telemetry_transport")
+	for character in "çÇğĞıIiİöÖşŞüÜ":
+		check(bay.localization.font.has_char(character.unicode_at(0)), "glyph_" + character)
+	for key in bay.localization.messages[selected]:
+		if key.begins_with("help.") and key.contains("relay_polarity"):
+			check(fits("support.response", 28, .00125, Vector2(.75, .48), {"level": 3, "guidance": bay.localization.text(key)}), "fits_" + key)
+		elif key.begins_with("polarity.scan_") or key.begins_with("polarity.coupler_") and not key.ends_with("prompt"):
+			check(fits(key, 28, .00078, Vector2(.245, .105)), "fits_" + key)
+	check(bay.localization.missing_keys.is_empty(), "no_missing_keys")
+	report["profile"] = bay.metrics.report(bay)
+	report["all_gameplay_checks_passed"] = not failed
+	var suffix := selected + ("_offline" if bay.telemetry.base_url.contains(":1/") else "_online")
+	bay.telemetry.export_trace("res://verification/phase2b/telemetry_mb02_" + suffix + ".json")
+	var file := FileAccess.open("res://verification/phase2b/runtime_mb02_" + suffix + ".json", FileAccess.WRITE)
+	file.store_string(JSON.stringify(report, "\t"))
+	bay.get_tree().quit(2 if failed else 0)

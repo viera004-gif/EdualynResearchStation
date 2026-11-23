@@ -1,0 +1,38 @@
+{
+  "provenance": "Original mathematical synthesis; no third-party samples",
+  "generator": "art_source/audio/generate_intervention_v02.py",
+  "cues": {
+    "valve": {
+      "duration_seconds": 0.6,
+      "sha256": "4a8c6a53243ae24af0a5aad361dcafede297a3b90ccfceee49a472fde2aa6942"
+    },
+    "flow": {
+      "duration_seconds": 1.6,
+      "sha256": "d8c5118de543f391720b60d9b1d8b0bca7ac825b71dd367eaee226faa4d6ccf5"
+    },
+    "relay_reject": {
+      "duration_seconds": 0.3,
+      "sha256": "90dd0b02b25b09cfc6307efacfa5308b8f1b8cd58825a61995f7a33e0d66e927"
+    },
+    "relay_engage": {
+      "duration_seconds": 0.4,
+      "sha256": "fa2763969798fa92831de22ee00fa09f3ed17d5df92951eac0570f1af55b2f18"
+    },
+    "scan_start": {
+      "duration_seconds": 0.45,
+      "sha256": "5da9a7e68929507f961ea92b61a867dc06d560d1aae4dd46fe7e8ebbc5b24f36"
+    },
+    "scan_complete": {
+      "duration_seconds": 0.4,
+      "sha256": "dd7c034a90dcae274c1fdf772dea542a300a8061351c492c9591f5c840193298"
+    },
+    "station_wake": {
+      "duration_seconds": 0.7,
+      "sha256": "5f055559d1fe059134b5d096d4ea9ac19674f0150eeb0cf92061c645ba3b1aa9"
+    },
+    "trace": {
+      "duration_seconds": 0.5,
+      "sha256": "013160cb306cb3ff5a9db15a52a119fac1acd194a666b92527c061ea65ba1f96"
+    }
+  }
+}

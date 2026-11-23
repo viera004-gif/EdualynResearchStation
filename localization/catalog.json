@@ -1,0 +1,5 @@
+{
+  "default_locale": "tr",
+  "locales": {"tr": "TÜRKÇE", "en": "ENGLISH"},
+  "packs": ["common", "power_coupling", "program", "relay_polarity", "coolant_pressure"]
+}

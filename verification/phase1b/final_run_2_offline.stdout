@@ -1,0 +1,58 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+Vulkan 1.4.315 - Forward Mobile - Using Device #0: AMD - AMD Radeon(TM) Graphics
+
+RAW_EVENT game_started index=0
+PROBE_BEGIN
+LIVE_FRAME 1
+LIVE_FRAME 30
+PROBE rendering_device=true
+PROBE simple_collision_only=true
+PROBE floor_contact=true
+LIVE_FRAME 120
+PROBE capture_01_entry=true
+PROBE first_person_movement=true
+PROBE wall_collision_blocks=true
+PROBE bench_collision_blocks=true
+PROBE mouse_look=true
+PROBE terminal_physics_raycast=true
+RAW_EVENT terminal_interaction index=1
+RAW_EVENT mission_started index=2
+PROBE mission_started=true
+PROBE capture_02_terminal=true
+PROBE module_physics_raycast=true
+RAW_EVENT object_grabbed index=3
+PROBE pickup_3d=true
+PROBE capture_03_carried_module=true
+RAW_EVENT object_rotated index=4
+PROBE rotation_3d=true
+PROBE wrong_socket_physics_raycast=true
+RAW_EVENT placement_attempt index=5
+RAW_EVENT placement_invalid index=6
+PROBE wrong_socket_rejection=true
+PROBE capture_04_wrong_socket=true
+RAW_EVENT object_rotated index=7
+PROBE correct_socket_physics_raycast=true
+RAW_EVENT placement_attempt index=8
+RAW_EVENT placement_invalid index=9
+PROBE orientation_rejection=true
+RAW_EVENT object_rotated index=10
+RAW_EVENT placement_attempt index=11
+RAW_EVENT placement_valid index=12
+PROBE correct_socket_snap=true
+PROBE machine_startup=true
+PROBE capture_05_machine_startup=true
+RAW_EVENT machine_activated index=13
+RAW_EVENT mission_completed index=14
+PROBE mission_complete=true
+PROBE ring_realtime_rotation=true
+PROBE machine_live_lights=true
+PROBE correct_socket_stable_light=true
+PROBE wrong_socket_pulse_ended=true
+PROBE audio_cue_counts=true
+PROBE audio_bus_nonzero=true
+PROBE audio_bus_headroom=true
+PROBE active_audio_loop=true
+PROBE hum_full_two_second_loop=true
+PROBE capture_06_active_bay=true
+PROBE escape_releases_mouse=true
+VERIFY_REPORT {"active_audio_loop":true,"all_gameplay_checks_passed":true,"audio":{"bus_peak_db":-14.5097984393585,"bus_peak_linear":0.18815253674984,"captured_frames":621568,"cue_counts":{"hum":1,"invalid":2,"lock":1,"pickup":1,"rotate":3,"startup":1,"terminal":1},"driver":"WASAPI","hum_duration_seconds":2.0,"hum_loop_frames":96000,"hum_playing":true,"nonzero_frames":348259},"audio_bus_headroom":true,"audio_bus_nonzero":true,"audio_cue_counts":true,"bench_collision_blocks":true,"capture_01_entry":true,"capture_02_terminal":true,"capture_03_carried_module":true,"capture_04_wrong_socket":true,"capture_05_machine_startup":true,"capture_06_active_bay":true,"correct_socket_physics_raycast":true,"correct_socket_snap":true,"correct_socket_stable_light":true,"escape_releases_mouse":true,"first_person_movement":true,"floor_contact":true,"fps_engine":78.0,"fps_measured_mean":66.0597137072862,"frames":801,"hum_full_two_second_loop":true,"machine_live_lights":true,"machine_startup":true,"mission_complete":true,"mission_started":true,"module_physics_raycast":true,"mouse_look":true,"orientation_rejection":true,"pickup_3d":true,"profile":{"active_lights_at_snapshot":6,"average_fps":66.0597137072862,"collision_shapes":{"BoxShape3D":13,"CapsuleShape3D":1},"draw_calls_max_monitor":570.0,"draw_calls_mean_monitor":357.20253164557,"dynamic_light_nodes":7,"lowest_engine_one_second_fps":44.0,"material_resource_names":["MAT_METAL_BRUSHED","MAT_PANEL_LIGHT","MAT_POLYMER_BLACK","MAT_EMISSIVE_BLUE","MAT_GLASS","MAT_LABEL","MAT_METAL_DARK","MAT_FLOOR","MAT_PANEL_GRAPHITE","MAT_EMISSIVE_WHITE","MAT_PANEL_GRAPHITE","MAT_POLYMER_BLACK","MAT_LABEL","MAT_METAL_DARK","MAT_METAL_BRUSHED","MAT_EMISSIVE_BLUE","MAT_POLYMER_BLACK","MAT_METAL_DARK","MAT_LABEL","MAT_METAL_BRUSHED","MAT_PANEL_LIGHT","MAT_SCREEN","MAT_METAL_BRUSHED","MAT_POLYMER_BLACK","","MAT_SCREEN","MAT_METAL_DARK","MAT_PANEL_GRAPHITE","","","MAT_LABEL","MAT_METAL_BRUSHED","MAT_COPPER","MAT_POLYMER_BLACK","MAT_EMISSIVE_WARNING","","MAT_LABEL","MAT_METAL_DARK","MAT_METAL_BRUSHED","MAT_COPPER","MAT_POLYMER_BLACK","MAT_EMISSIVE_WARNING","","MAT_LABEL","MAT_METAL_DARK","MAT_EMISSIVE_WARNING","MAT_METAL_BRUSHED","MAT_COPPER","MAT_POLYMER_BLACK","MAT_LABEL","MAT_METAL_DARK","MAT_EMISSIVE_BLUE"],"mesh_instances":438,"mesh_triangles":79244,"minimum_instantaneous_fps":6.87288372455315,"msaa_3d_enum":2,"notes":"Short automated playthrough; excludes first 90 frames; includes screenshot/readback overhead. Engine monitors may update at ~1Hz; memory is an engine estimate, not physical VRAM residency.","primitives_mean_monitor":52827.9381153305,"reflection_probes":1,"runtime_material_resources":52,"sample_frames":711,"sample_seconds":10.7629894242424,"shadow_lights":1,"texture_memory_peak_bytes_monitor":392541408.0,"video_memory_peak_bytes_monitor":445810688.0,"viewport":{"height":720.0,"width":1280.0}},"rendering_device":true,"ring_realtime_rotation":true,"rotation_3d":true,"simple_collision_only":true,"telemetry_acknowledged":0,"telemetry_complete":false,"telemetry_pending":15,"telemetry_session":"","terminal_physics_raycast":true,"wall_collision_blocks":true,"wrong_socket_physics_raycast":true,"wrong_socket_pulse_ended":true,"wrong_socket_rejection":true}

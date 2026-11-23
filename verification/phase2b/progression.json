@@ -1,0 +1,14 @@
+{
+	"all_gameplay_checks_passed": true,
+	"completed_trace_boundary_retained": true,
+	"completion_only_unlock": true,
+	"initial_availability": true,
+	"locale_retained_between_missions": true,
+	"locked_mission_cannot_launch": true,
+	"no_performance_or_help_gate": true,
+	"offline_evidence_survives_transition": true,
+	"persisted_unlock_and_reserved_slots": true,
+	"physical_operations_console": true,
+	"physical_transition_to_mb02": true,
+	"progress_written": true
+}

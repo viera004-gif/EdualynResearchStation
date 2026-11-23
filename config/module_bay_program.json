@@ -1,0 +1,13 @@
+{
+  "program_id": "MODULE_BAY_INTERVENTION_PROGRAM",
+  "version": "0.1",
+  "purpose": "intervention",
+  "missions": [
+    {"slot": "MB01", "definition": "res://config/missions/mb01.json", "requires": [], "implemented": true},
+    {"slot": "MB02", "definition": "res://config/missions/mb02.json", "requires": ["MB01"], "implemented": true},
+    {"slot": "MB03", "definition": "res://config/missions/mb03.json", "requires": ["MB02"], "implemented": true},
+    {"slot": "MB04", "definition": null, "requires": ["MB03"], "implemented": false},
+    {"slot": "MB05", "definition": null, "requires": ["MB04"], "implemented": false},
+    {"slot": "MB06", "definition": null, "requires": ["MB05"], "implemented": false, "role": "future_transfer_challenge"}
+  ]
+}

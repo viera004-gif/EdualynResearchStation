@@ -1,0 +1,21 @@
+{
+  "slot": "MB01",
+  "mission_id": "MODULE_BAY_01_POWER_COUPLING_CASCADE_V02",
+  "version": "power_coupling_cascade_v0_2",
+  "text_namespace": "power_coupling",
+  "app_version": "research_station_v0_2",
+  "scene": "res://scenes/main/power_coupling_cascade.tscn",
+  "title_key": "mission.power_coupling.title",
+  "objective_key": "mission.power_coupling.objective",
+  "completion_key": "mission.power_coupling.complete",
+  "initial_state": "COOLING_UNRESOLVED",
+  "dependency_graph": [["COOLING_READY", "RELAY_READY"], ["RELAY_READY", "COUPLING_READY"], ["COUPLING_READY", "MODULE_LOCKED"], ["MODULE_LOCKED", "SYSTEM_ACTIVE"]],
+  "available_tools": ["DIAGNOSTIC_SCANNER", "DIAGNOSTIC_AI"],
+  "failure_states": ["incompatible_interface", "upstream_system_not_ready", "key_orientation"],
+  "valid_solution_states": ["SYSTEM_ACTIVE"],
+  "help_policy_path": "res://config/intervention_v02.json",
+  "tutorial_level": "introductory",
+  "scaffolding_level": "full",
+  "early_help_exploration_count": 2,
+  "content_use": "intervention_only_not_protected_assessment"
+}

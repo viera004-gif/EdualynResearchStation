@@ -1,0 +1,9 @@
+{
+  "locale_key_parity": true,
+  "key_count_per_locale": 69,
+  "placeholder_parity": true,
+  "utf8_no_mojibake": true,
+  "launcher_utf8_bom": true,
+  "launcher_engine_exists": true,
+  "reference_entries_verified": 207
+}

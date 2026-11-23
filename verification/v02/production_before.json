@@ -1,0 +1,16 @@
+{
+  "counts": {
+    "students": 1,
+    "sqlite_sequence": 2,
+    "academic_records": 4,
+    "cognitive_sessions": 0,
+    "cognitive_trials": 0,
+    "cognitive_profiles": 0,
+    "research_station_sessions": 0,
+    "research_station_events": 0
+  },
+  "hashes": {
+    "studentplanner.db": "39d34c25893754105f2f53f59481460a4c74e622e3fff88a79cf03eba099eed2",
+    "studentplanner_backup.db": "af0fcd96bc8fa66a1895478ee1354526b18ce0451c9d5f93347c952cbf1ee1d7"
+  }
+}

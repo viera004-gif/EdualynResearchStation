@@ -1,0 +1,22 @@
+{
+  "minimal_no_probe": {
+    "exit": 0,
+    "stderr": "",
+    "done": true
+  },
+  "minimal_probe": {
+    "exit": 0,
+    "stderr": "WARNING: 7 RIDs of type \"Texture\" were leaked.\n   at: finalize (servers/rendering/rendering_device.cpp:8900)\n",
+    "done": true
+  },
+  "full_no_capture": {
+    "exit": 0,
+    "stderr": "WARNING: 7 RIDs of type \"Texture\" were leaked.\n   at: finalize (servers/rendering/rendering_device.cpp:8900)\n",
+    "done": true
+  },
+  "full_early_cleanup": {
+    "exit": 0,
+    "stderr": "WARNING: 7 RIDs of type \"Texture\" were leaked.\n   at: finalize (servers/rendering/rendering_device.cpp:8900)\n",
+    "done": true
+  }
+}

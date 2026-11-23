@@ -1,0 +1,34 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+Vulkan 1.4.315 - Forward Mobile - Using Device #0: AMD - AMD Radeon(TM) Graphics
+
+RAW_EVENT game_started index=0
+PROBE combined_fault_start=true
+PROBE ray_@Area3D@51=true
+RAW_EVENT system_state_changed index=1
+RAW_EVENT mission_started index=2
+RAW_EVENT subsystem_inspected index=3
+PROBE ray_@Area3D@41=true
+RAW_EVENT regulator_interaction index=4
+RAW_EVENT regulator_changed index=5
+RAW_EVENT pressure_changed index=6
+RAW_EVENT coolant_flow_changed index=7
+PROBE physical_adjust_regulator=true
+PROBE linear_regulator_motion=true
+PROBE one_fault_correction_not_enough=true
+PROBE ray_@Area3D@38=true
+RAW_EVENT coolant_valve_interaction index=8
+RAW_EVENT coolant_valve_changed index=9
+RAW_EVENT pressure_changed index=10
+RAW_EVENT coolant_flow_changed index=11
+RAW_EVENT system_state_changed index=12
+RAW_EVENT system_state_changed index=13
+RAW_EVENT system_state_changed index=14
+PROBE physical_adjust_primary=true
+PROBE valve_motion_primary=true
+RAW_EVENT system_state_changed index=15
+RAW_EVENT system_state_changed index=16
+RAW_EVENT machine_activated index=17
+RAW_EVENT mission_completed index=18
+PROBE alternative_balance_independent_completion=true
+PROBE different_valid_final_balance=true
+PROBE scanner_and_ai_optional=true

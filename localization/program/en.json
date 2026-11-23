@@ -1,0 +1,11 @@
+{
+  "program.console": "MODULE BAY\n01: {m1}\n02: {m2}",
+  "program.available": "AVAILABLE",
+  "program.locked": "LOCKED",
+  "program.complete": "COMPLETE",
+  "program.enter_mb02": "[F] Begin Mission 02 / Relay Polarity Failure",
+  "program.return_mb01": "[F] Return to Mission 01 / Power Coupling Cascade",
+  "program.unlock_hint": "Mission 02 becomes available after Mission 01 is complete",
+  "program.console_three": "MODULE BAY\n01: {m1}\n02: {m2}\n03: {m3}",
+  "program.enter_mb03": "[F] Begin Mission 03 / Coolant Pressure Imbalance"
+}

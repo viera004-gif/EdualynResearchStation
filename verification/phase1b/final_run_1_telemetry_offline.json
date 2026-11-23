@@ -1,0 +1,344 @@
+{
+	"acknowledged": 0,
+	"completed": false,
+	"events": [
+		{
+			"client_monotonic_ms": 2128.0,
+			"event_index": 0,
+			"event_type": "game_started",
+			"event_uuid": "b4db7000-a6a4-4cfc-ad6a-55a374b23186",
+			"metadata": {
+				"module_bay": "01"
+			},
+			"mission_id": "MODULE_BAY_01",
+			"object_id": null,
+			"target_id": null
+		},
+		{
+			"client_monotonic_ms": 6676.0,
+			"event_index": 1,
+			"event_type": "terminal_interaction",
+			"event_uuid": "038303a6-922d-4412-86d3-8489df6d7a44",
+			"metadata": {},
+			"mission_id": "MODULE_BAY_01",
+			"object_id": null,
+			"target_id": "TERMINAL_01"
+		},
+		{
+			"client_monotonic_ms": 6678.0,
+			"event_index": 2,
+			"event_type": "mission_started",
+			"event_uuid": "58128b61-e56e-48df-a8bd-b01b326e490f",
+			"metadata": {},
+			"mission_id": "MODULE_BAY_01",
+			"object_id": null,
+			"target_id": null
+		},
+		{
+			"client_monotonic_ms": 6809.0,
+			"event_index": 3,
+			"event_type": "object_grabbed",
+			"event_uuid": "7b8b5556-be43-4a60-9172-172dee973722",
+			"metadata": {},
+			"mission_id": "MODULE_BAY_01",
+			"object_id": "ENERGY_MODULE_A",
+			"target_id": null
+		},
+		{
+			"client_monotonic_ms": 6967.0,
+			"event_index": 4,
+			"event_type": "object_rotated",
+			"event_uuid": "1efdc8e5-9b7e-47f4-b2db-421cfadc2121",
+			"metadata": {
+				"orientation_step": 1,
+				"quarter_turn": 1
+			},
+			"mission_id": "MODULE_BAY_01",
+			"object_id": "ENERGY_MODULE_A",
+			"target_id": null
+		},
+		{
+			"client_monotonic_ms": 7428.0,
+			"event_index": 5,
+			"event_type": "placement_attempt",
+			"event_uuid": "6f3f6f08-84ae-4b35-9dc0-4d07915d17f4",
+			"metadata": {},
+			"mission_id": "MODULE_BAY_01",
+			"object_id": "ENERGY_MODULE_A",
+			"target_id": "SOCKET_WRONG_01"
+		},
+		{
+			"client_monotonic_ms": 7429.0,
+			"event_index": 6,
+			"event_type": "placement_invalid",
+			"event_uuid": "86895611-ddaf-4fc0-a288-d7cccdf2ebb5",
+			"metadata": {
+				"reason": "incompatible_interface"
+			},
+			"mission_id": "MODULE_BAY_01",
+			"object_id": "ENERGY_MODULE_A",
+			"target_id": "SOCKET_WRONG_01"
+		},
+		{
+			"client_monotonic_ms": 7633.0,
+			"event_index": 7,
+			"event_type": "object_rotated",
+			"event_uuid": "dab4722f-1b73-4759-a80d-a7fac7c5e5c7",
+			"metadata": {
+				"orientation_step": 0,
+				"quarter_turn": -1
+			},
+			"mission_id": "MODULE_BAY_01",
+			"object_id": "ENERGY_MODULE_A",
+			"target_id": null
+		},
+		{
+			"client_monotonic_ms": 8000.0,
+			"event_index": 8,
+			"event_type": "placement_attempt",
+			"event_uuid": "7c1c1678-5041-4dc3-b9c4-c089b157cee5",
+			"metadata": {},
+			"mission_id": "MODULE_BAY_01",
+			"object_id": "ENERGY_MODULE_A",
+			"target_id": "SOCKET_CORRECT_01"
+		},
+		{
+			"client_monotonic_ms": 8002.0,
+			"event_index": 9,
+			"event_type": "placement_invalid",
+			"event_uuid": "c2e5b21f-5de5-477b-8659-026abe371872",
+			"metadata": {
+				"reason": "key_orientation"
+			},
+			"mission_id": "MODULE_BAY_01",
+			"object_id": "ENERGY_MODULE_A",
+			"target_id": "SOCKET_CORRECT_01"
+		},
+		{
+			"client_monotonic_ms": 8015.0,
+			"event_index": 10,
+			"event_type": "object_rotated",
+			"event_uuid": "fa68969a-c5fc-4164-aa7a-df6b9cb80cab",
+			"metadata": {
+				"orientation_step": 1,
+				"quarter_turn": 1
+			},
+			"mission_id": "MODULE_BAY_01",
+			"object_id": "ENERGY_MODULE_A",
+			"target_id": null
+		},
+		{
+			"client_monotonic_ms": 8345.0,
+			"event_index": 11,
+			"event_type": "placement_attempt",
+			"event_uuid": "bc5811e5-4555-484f-8074-e84ef9a8948c",
+			"metadata": {},
+			"mission_id": "MODULE_BAY_01",
+			"object_id": "ENERGY_MODULE_A",
+			"target_id": "SOCKET_CORRECT_01"
+		},
+		{
+			"client_monotonic_ms": 8350.0,
+			"event_index": 12,
+			"event_type": "placement_valid",
+			"event_uuid": "9bdb051f-e981-4dd1-ac12-10c55d5269d3",
+			"metadata": {
+				"orientation_step": 1
+			},
+			"mission_id": "MODULE_BAY_01",
+			"object_id": "ENERGY_MODULE_A",
+			"target_id": "SOCKET_CORRECT_01"
+		},
+		{
+			"client_monotonic_ms": 11536.0,
+			"event_index": 13,
+			"event_type": "machine_activated",
+			"event_uuid": "9d428347-007f-4a01-978c-b8d4a409b9f5",
+			"metadata": {},
+			"mission_id": "MODULE_BAY_01",
+			"object_id": null,
+			"target_id": "REPAIR_MACHINE_01"
+		},
+		{
+			"client_monotonic_ms": 11540.0,
+			"event_index": 14,
+			"event_type": "mission_completed",
+			"event_uuid": "37e3c8a8-6c44-490f-97ac-69383371d4f2",
+			"metadata": {},
+			"mission_id": "MODULE_BAY_01",
+			"object_id": null,
+			"target_id": null
+		}
+	],
+	"pending": [
+		{
+			"client_monotonic_ms": 2128.0,
+			"event_index": 0,
+			"event_type": "game_started",
+			"event_uuid": "b4db7000-a6a4-4cfc-ad6a-55a374b23186",
+			"metadata": {
+				"module_bay": "01"
+			},
+			"mission_id": "MODULE_BAY_01",
+			"object_id": null,
+			"target_id": null
+		},
+		{
+			"client_monotonic_ms": 6676.0,
+			"event_index": 1,
+			"event_type": "terminal_interaction",
+			"event_uuid": "038303a6-922d-4412-86d3-8489df6d7a44",
+			"metadata": {},
+			"mission_id": "MODULE_BAY_01",
+			"object_id": null,
+			"target_id": "TERMINAL_01"
+		},
+		{
+			"client_monotonic_ms": 6678.0,
+			"event_index": 2,
+			"event_type": "mission_started",
+			"event_uuid": "58128b61-e56e-48df-a8bd-b01b326e490f",
+			"metadata": {},
+			"mission_id": "MODULE_BAY_01",
+			"object_id": null,
+			"target_id": null
+		},
+		{
+			"client_monotonic_ms": 6809.0,
+			"event_index": 3,
+			"event_type": "object_grabbed",
+			"event_uuid": "7b8b5556-be43-4a60-9172-172dee973722",
+			"metadata": {},
+			"mission_id": "MODULE_BAY_01",
+			"object_id": "ENERGY_MODULE_A",
+			"target_id": null
+		},
+		{
+			"client_monotonic_ms": 6967.0,
+			"event_index": 4,
+			"event_type": "object_rotated",
+			"event_uuid": "1efdc8e5-9b7e-47f4-b2db-421cfadc2121",
+			"metadata": {
+				"orientation_step": 1,
+				"quarter_turn": 1
+			},
+			"mission_id": "MODULE_BAY_01",
+			"object_id": "ENERGY_MODULE_A",
+			"target_id": null
+		},
+		{
+			"client_monotonic_ms": 7428.0,
+			"event_index": 5,
+			"event_type": "placement_attempt",
+			"event_uuid": "6f3f6f08-84ae-4b35-9dc0-4d07915d17f4",
+			"metadata": {},
+			"mission_id": "MODULE_BAY_01",
+			"object_id": "ENERGY_MODULE_A",
+			"target_id": "SOCKET_WRONG_01"
+		},
+		{
+			"client_monotonic_ms": 7429.0,
+			"event_index": 6,
+			"event_type": "placement_invalid",
+			"event_uuid": "86895611-ddaf-4fc0-a288-d7cccdf2ebb5",
+			"metadata": {
+				"reason": "incompatible_interface"
+			},
+			"mission_id": "MODULE_BAY_01",
+			"object_id": "ENERGY_MODULE_A",
+			"target_id": "SOCKET_WRONG_01"
+		},
+		{
+			"client_monotonic_ms": 7633.0,
+			"event_index": 7,
+			"event_type": "object_rotated",
+			"event_uuid": "dab4722f-1b73-4759-a80d-a7fac7c5e5c7",
+			"metadata": {
+				"orientation_step": 0,
+				"quarter_turn": -1
+			},
+			"mission_id": "MODULE_BAY_01",
+			"object_id": "ENERGY_MODULE_A",
+			"target_id": null
+		},
+		{
+			"client_monotonic_ms": 8000.0,
+			"event_index": 8,
+			"event_type": "placement_attempt",
+			"event_uuid": "7c1c1678-5041-4dc3-b9c4-c089b157cee5",
+			"metadata": {},
+			"mission_id": "MODULE_BAY_01",
+			"object_id": "ENERGY_MODULE_A",
+			"target_id": "SOCKET_CORRECT_01"
+		},
+		{
+			"client_monotonic_ms": 8002.0,
+			"event_index": 9,
+			"event_type": "placement_invalid",
+			"event_uuid": "c2e5b21f-5de5-477b-8659-026abe371872",
+			"metadata": {
+				"reason": "key_orientation"
+			},
+			"mission_id": "MODULE_BAY_01",
+			"object_id": "ENERGY_MODULE_A",
+			"target_id": "SOCKET_CORRECT_01"
+		},
+		{
+			"client_monotonic_ms": 8015.0,
+			"event_index": 10,
+			"event_type": "object_rotated",
+			"event_uuid": "fa68969a-c5fc-4164-aa7a-df6b9cb80cab",
+			"metadata": {
+				"orientation_step": 1,
+				"quarter_turn": 1
+			},
+			"mission_id": "MODULE_BAY_01",
+			"object_id": "ENERGY_MODULE_A",
+			"target_id": null
+		},
+		{
+			"client_monotonic_ms": 8345.0,
+			"event_index": 11,
+			"event_type": "placement_attempt",
+			"event_uuid": "bc5811e5-4555-484f-8074-e84ef9a8948c",
+			"metadata": {},
+			"mission_id": "MODULE_BAY_01",
+			"object_id": "ENERGY_MODULE_A",
+			"target_id": "SOCKET_CORRECT_01"
+		},
+		{
+			"client_monotonic_ms": 8350.0,
+			"event_index": 12,
+			"event_type": "placement_valid",
+			"event_uuid": "9bdb051f-e981-4dd1-ac12-10c55d5269d3",
+			"metadata": {
+				"orientation_step": 1
+			},
+			"mission_id": "MODULE_BAY_01",
+			"object_id": "ENERGY_MODULE_A",
+			"target_id": "SOCKET_CORRECT_01"
+		},
+		{
+			"client_monotonic_ms": 11536.0,
+			"event_index": 13,
+			"event_type": "machine_activated",
+			"event_uuid": "9d428347-007f-4a01-978c-b8d4a409b9f5",
+			"metadata": {},
+			"mission_id": "MODULE_BAY_01",
+			"object_id": null,
+			"target_id": "REPAIR_MACHINE_01"
+		},
+		{
+			"client_monotonic_ms": 11540.0,
+			"event_index": 14,
+			"event_type": "mission_completed",
+			"event_uuid": "37e3c8a8-6c44-490f-97ac-69383371d4f2",
+			"metadata": {},
+			"mission_id": "MODULE_BAY_01",
+			"object_id": null,
+			"target_id": null
+		}
+	],
+	"quarantined": {},
+	"session_uuid": ""
+}
