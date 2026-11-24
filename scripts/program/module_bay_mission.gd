@@ -204,7 +204,7 @@ func _process(delta: float) -> void:
 		var target = player.target()
 		localization.bind_label(prompt_label, target.prompt() if target != null else "")
 	localization.bind_label(system_label, "ui.performance", {"fps": int(Engine.get_frames_per_second())})
-	if history != null and history.running and (history.repetition_nudge_due() or history.no_progress_due()):
+	if definition.data.get("automatic_help_salience", true) and history != null and history.running and (history.repetition_nudge_due() or history.no_progress_due()):
 		if not help_salient:
 			help_salient = true
 			telemetry.record("help_salience_changed", {"reason": "exact_repeat" if history.repetition_nudge_due() else "no_progress"})
@@ -315,8 +315,7 @@ func request_help() -> void:
 		audio.play_cue("station_wake", ai_station.global_position)
 	var level: int = history.level_for_next_request()
 	var early: bool = history.exploration_actions < int(definition.data.early_help_exploration_count) and early_help_condition()
-	if early:
-		level = 1
+	level = guidance_level(level, early)
 	history.help_requests += 1
 	telemetry.record("help_requested", {"requested_level": level, "early_little_exploration": early}, null, "DIAGNOSTIC_AI")
 	var guidance_key: String = select_guidance(level, early)
@@ -328,5 +327,7 @@ func request_help() -> void:
 
 func select_guidance(_level: int, _early: bool) -> String:
 	return ""
+func guidance_level(requested: int, early: bool) -> int:
+	return 1 if early else requested
 func early_help_condition() -> bool:
 	return not upstream_ready()

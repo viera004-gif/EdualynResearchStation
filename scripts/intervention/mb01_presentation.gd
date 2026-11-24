@@ -57,10 +57,11 @@ func assign() -> void:
 		objective_tween.kill()
 	objective_tween = present(objective, "mb01.objective", 5.5)
 
-func speak(key: String, seconds: float) -> void:
+func speak(key: String, seconds: float) -> Tween:
 	if radio_tween != null:
 		radio_tween.kill()
 	radio_tween = present(radio, key, seconds)
+	return radio_tween
 
 func teach(key: String, seconds: float) -> void:
 	if notice_tween != null:

@@ -1,4 +1,5 @@
 extends "res://scripts/interaction/interactable.gd"
+var resolve_scan_readout: Callable
 var kind := ""
 var screen: Label3D
 var moving_part: Node3D
@@ -132,8 +133,15 @@ func scan(target: Node) -> void:
 		show_message("scanner.target_lost")
 	else:
 		var status: String = target.scan_status()
-		show_message(status)
-		bay.telemetry.record("scanner_scan_completed", {"diagnostic": status}, interaction_id, target_id)
+		var metadata := {"diagnostic": status}
+		var readout := status
+		if resolve_scan_readout.is_valid():
+			var result: Dictionary = resolve_scan_readout.call(target_id, status)
+			readout = result.readout
+			metadata["unchanged"] = result.unchanged
+		show_message(readout)
+		bay.telemetry.record("scanner_scan_completed", metadata, interaction_id, target_id)
 		bay.audio.play_cue("scan_complete", global_position)
-		bay.audio.play_cue("trace", target.global_position)
+		if not metadata.get("unchanged", false):
+			bay.audio.play_cue("trace", target.global_position)
 	scanning = false

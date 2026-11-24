@@ -19,6 +19,8 @@
     "adaptive_help": {"exact_repeat_nudge_count": 2, "prolonged_no_progress_seconds": 45, "level2_after_help_requests": 1, "level3_after_help_requests": 2}
   },
   "tutorial_level": "contextual_only",
+  "show_controls_footer": false,
+  "automatic_help_salience": false,
   "scaffolding_level": "faded",
   "early_help_exploration_count": 2,
   "relay_units": {

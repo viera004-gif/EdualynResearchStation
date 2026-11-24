@@ -27,7 +27,7 @@ The shared components retain one player implementation, one scanner, one help-re
 
 Start `Launch_Module_Bay_Program.ps1` (default offline, Turkish; optional `-Locale en`). The project default and program launcher open the live MB01 boot sequence. `Launch_Module_Bay_01.ps1` explicitly opens the original reference scene.
 
-The physical operations console at the left side of the room displays MB01, MB02 and MB03 completion/availability in TR or EN. Completion alone unlocks the next implemented exercise: MB01 -> MB02 -> MB03. After MB01 restoration, the physical console enables MB02 entry following 40 seconds of free exploration. F in completed MB02 accesses MB03. Before MB03 is available, MB02's console returns to MB01; MB03's console also returns to MB01 for replay of the program. Returning starts a fresh physical layout/session and retains completion flags. Help usage, failures, speed and other performance never gate access. No conventional 2D level selector is added.
+The physical operations console at the left side of the room displays MB01, MB02 and MB03 completion/availability in TR or EN. Completion alone unlocks the next implemented exercise: MB01 -> MB02 -> MB03. After MB01 restoration and the Chief Engineer's closing transmission, the physical console enables MB02 entry. The player can stay in the restored bay. F in completed MB02 accesses MB03. Before MB03 is available, MB02's console returns to MB01; MB03's console also returns to MB01 for replay of the program. Returning starts a fresh physical layout/session and retains completion flags. Help usage, failures, speed and other performance never gate access. No conventional 2D level selector is added.
 
 `scripts/program/module_bay_program.gd` persists a schema version, program ID, completed slot IDs and deterministic configuration cursors to `user://module_bay_program_v01.json`. Existing schema-1 saves remain compatible; missing cursors default to the first variant. Cursors only rotate verified starts and are not a performance measurement. This is prototype local state, not a student/cloud record, learner model or protected progression. A custom `--progress-file=<path>` isolates verification fixtures. The chosen language is retained in memory across mission transitions; MB01 uses the launch locale at boot. L opens the language selector in the corridor or bay.
 
@@ -35,11 +35,13 @@ Unacknowledged telemetry nodes survive scene changes under the SceneTree root an
 
 ## Mission 01 opening experience
 
-A short system boot leads into a walkable service corridor, a physical sliding airlock and the existing Module Bay. Station AI and the Chief Engineer appear on a localized text radio channel. The first objective is to restore the primary coupling. Movement, look and interaction controls fade automatically. Module rotation and scanner operation are introduced on first pickup.
+A short system boot leads into a shorter service corridor, a physical sliding airlock and the existing Module Bay. An optional ventilation panel introduces F in context and shows that the sector is on reserve airflow. Station AI and the Chief Engineer appear on a localized text radio channel. The first objective is to restore the primary coupling. Movement and look guidance fade automatically. Module rotation and scanner operation are introduced on first pickup.
 
-The original dependency, keyed coupling, handling, diagnostics, L1/L2/L3 requests and recovery mechanics remain in the room. Help describes system states and input conditions. A rejected placement produces an amber pulse, sound and mechanical kickback. The first rejected action opens an unprompted recovery window. After 25 seconds of eligible inactivity the dock can wake with a lamp and sound. Inspection, tool use, interaction and repair progress defer the cue.
+The original dependency, keyed coupling, handling, diagnostics, L1/L2/L3 requests and recovery mechanics remain in the room. Upstream power rejection briefly lights the relay route. The Service socket gives a local incompatibility warning, and key misalignment moves the alignment rails. The first rejected action opens an unprompted recovery window. The dock can wake with a lamp and sound after 25 seconds of eligible time without progress. Inspection, tool handling and repair progress defer the cue. The manually available AI station requires fresh repair evidence between guidance tiers.
 
-A segmented display and ventilation fan animate during exploration. The lock brings the power route, rising core, ring and machine hum online. Room lights and ventilation respond, and the Chief Engineer reports restoration. The bay remains available for a 40-second observation period before the operations console enables departure.
+MB01 has three physical placements. A service module drives its cradle latch, a keyed contact module drives a flywheel, and the Primary Energy Module locks at Power A. The first two receivers can be used in either order, independently of Cooling and Relay. The final coupling needs both input contacts and the original Cooling and Relay conditions. A receiver's small approach response indicates a compatible held module even when alignment or input power is missing. F and left-click both seat a module when aimed at a receiver.
+
+A segmented display and ventilation fan animate during exploration. The lock brings the power route, rising core, ring and machine hum online. Room lighting changes, both ventilation readouts switch to normal airflow, and the fan speeds up. The operations console enables departure when the Chief Engineer's completion transmission ends.
 
 The exact accepted bilingual v0.2 source/assets/configuration before refactoring are archived at `reference_builds/module_bay_intervention_v02_pre_phase2b.zip`, with a SHA-256 manifest beside it. All 215 snapshot entries are verified. The earlier `module_bay_01_reference_v0_1.zip` and its 207-entry manifest remain unchanged. Existing accepted assets are not regenerated for Mission 02.
 
@@ -47,11 +49,11 @@ The exact accepted bilingual v0.2 source/assets/configuration before refactoring
 
 Mission ID: `MODULE_BAY_02_RELAY_POLARITY`. Version: `relay_polarity_v0_1`.
 
-The terminal reports unstable transfer while the module and socket remain serviceable. The energy module starts physically seated in POWER A. There is no cooling valve and no carry/rotate/insert energy-module puzzle. Two mounted rotary cartridges and a source contactor are the new repair problem.
+The seated Energy Module and the terminal carry the previous repair forward. The terminal reports restored coupling and unstable secondary transfer. Two mounted rotary cartridges and a source contactor form the new repair.
 
 Each relay has moving positive/negative contact geometry and matching fixed housing contacts. A has lateral fixed contacts and side guards; B has vertical fixed contacts and crown guards. A valid configuration can be deduced by comparing these physical symbols and scanner information. F turns the targeted relay one quarter-turn; R/T allow reverse/forward quarter-turns, including while holding the scanner. Rotation is animated and matters electrically. Initial orientations are A=3, B=0; the housing geometry defines A=1 and B=2 as the matching orientations. These numbers are internal state buckets, not a solution instruction on screen.
 
-A physical source contactor tests the configured route. It kicks back under an incompatible configuration and stays engaged only when both relays match. The player may compare/inspect/scan/adjust either relay in any order. Correctly configuring one relay does not silently fix the other. Even after both align, the player must manually engage the source lever. The relay latches close, route strips glow steadily, and the existing main core lifts/spins online in real time.
+A physical source contactor tests the configured route. A pulse travels from the source to the stopping point and briefly lights the affected fixed contacts. A relay turn marks the tester as needing a new test. Aligned contacts enter a dim standby state. Manual engagement closes both latches and sends sustained transfer to the rising core. The secondary bus comes online as the machine completes startup.
 
 ### Meaningful failures
 
@@ -65,11 +67,11 @@ These are physical states and diagnostic information, not WRONG/TRY AGAIN popups
 
 ### Scanner and help
 
-The same physical DS-01 tool reports relay-specific contact/phase mismatch, local polarity stability, B input interruption, source stability and unstable/stable coupler input. It never tells the player to rotate a named unit by a specified angle. Diagnostic result keys and raw orientations remain language-independent.
+The optional DS-01 reports local polarity, interrupted input, the last relevant test location, and coupling input state. An unchanged repeat scan displays a short no-change status. Diagnostic result keys and raw orientations remain language-independent.
 
-Mission-specific TR/EN help preserves the gradient: L1 compares contacts and transfer state; L2 narrows attention to A, B or the source contactor; L3 identifies the immediate interrupted dependency and asks the player to match moving +/− marks to fixed contacts or operate the contactor. No help request performs an action.
+Mission-specific TR/EN help preserves three tiers. L1 encourages comparison, L2 narrows attention, and L3 describes the interrupted relationship. Escalation requires distinct evidence between requests. A new relay orientation, changed test result, or fresh observation can qualify.
 
-MB02 sets `tutorial_level=contextual_only` and `scaffolding_level=faded`. It uses contextual interaction teaching. The familiar basic-control footer and local hardware prompts remain. Optional help still becomes subtly more salient after exact repetition or the configured lack of progress. All thresholds remain **PROVISIONAL GAMEPLAY PARAMETERS — NOT VALIDATED PSYCHOMETRIC OR CLINICAL CUT-OFFS**.
+MB02 uses contextual control prompts and a language shortcut. The AI kiosk stays subdued at entry. Test inputs and outcomes share an attempt UUID, and route events distinguish unengaged continuity, test transfer, and energized load transfer.
 
 ## Blender → GLB → Godot assets
 

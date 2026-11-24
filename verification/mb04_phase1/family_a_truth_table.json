@@ -1,0 +1,12 @@
+{
+  "family_id": "A",
+  "expected_channel": "BACKBONE",
+  "physical_witnesses": ["A", "B_IN", "B_OUT", "C"],
+  "unexpected_branch": [],
+  "rows": [
+    {"mode":"NORMAL","tap":"HOLD","sample_ids":[1,0,1],"sample_detected":[true,false,true],"conflict_at":["B"],"normal_service_confirmed":false},
+    {"mode":"ISOLATED","tap":"HOLD","sample_ids":[1,0,1],"sample_detected":[true,false,true],"conflict_at":["B"],"normal_service_confirmed":false},
+    {"mode":"ISOLATED","tap":"LIVE","sample_ids":[1,1,1],"sample_detected":[true,true,true],"conflict_at":[],"normal_service_confirmed":false},
+    {"mode":"NORMAL","tap":"LIVE","sample_ids":[1,1,1],"sample_detected":[true,true,true],"conflict_at":[],"normal_service_confirmed":true}
+  ]
+}

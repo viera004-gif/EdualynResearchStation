@@ -1,10 +1,21 @@
 extends Node3D
 ## MB01-only geometry, animated station fixtures, and physical airlock.
-const SPAWN := Vector3(0, .04, 55)
+const SPAWN := Vector3(0, .04, 26)
 const THRESHOLD := 3.8
 const DOOR_Z := 4.48
 const DOOR_WIDTH := 1.9
-const CORRIDOR_END := 56.5
+const CORRIDOR_END := 27.5
+const SERVICE_POSITION := Vector3(1.37, 1.52, 22.0)
+
+class VentilationPanel extends "res://scripts/interaction/interactable.gd":
+	var environment: Node3D
+
+	func prompt() -> String:
+		return "mb01.vent.check"
+
+	func interact(_player: Node) -> void:
+		environment.check_ventilation()
+
 var bay: Node
 var door_open := false
 var door_leaves: Array[Node3D] = []
@@ -17,6 +28,11 @@ var display_segments: Array[MeshInstance3D] = []
 var display_step := 0
 var display_clock := 0.0
 var machine_status: Label3D
+var ventilation: VentilationPanel
+var vent_screen: Label3D
+var bay_vent_status: Label3D
+var vent_signal: StandardMaterial3D
+var vent_online := false
 var shell := material(Color(.16, .19, .22))
 var trim := material(Color(.27, .32, .36))
 var inset := material(Color(.09, .115, .135))
@@ -51,12 +67,13 @@ func build(world: Node) -> void:
 	build_corridor()
 	build_airlock()
 	build_fixtures()
+	build_ventilation_panel()
 
 func build_corridor() -> void:
 	# Each section has one surface per finish, so repeating trim stays cheap to draw.
 	var cube := BoxMesh.new()
-	var length := (CORRIDOR_END - DOOR_Z) / 4.0
-	for section in range(4):
+	var length := (CORRIDOR_END - DOOR_Z) / 2.0
+	for section in range(2):
 		var surfaces: Array[SurfaceTool] = []
 		for finish in [shell, trim, inset, lamp]:
 			var surface := SurfaceTool.new()
@@ -79,8 +96,8 @@ func build_corridor() -> void:
 		for index in range(3):
 			var z := start + (index + .5) * length / 3.0
 			append_box(surfaces[1], cube, Vector3(0, 2.94, z), Vector3(3.16, .18, .15))
-		if section % 2 == 0:
-			var side := -1.0 if section == 0 else 1.0
+		if section == 0:
+			var side := -1.0
 			var cabinet := Vector3(side * 1.48, 1.55, middle + 2.8)
 			append_box(surfaces[1], cube, cabinet, Vector3(.16, 1.31, 1.82))
 			append_box(surfaces[2], cube, cabinet - Vector3(side * .092, 0, 0), Vector3(.035, 1.12, 1.62))
@@ -184,6 +201,24 @@ func open_airlock() -> void:
 	tween.tween_property(door_leaves[1], "position:x", 1.02, .82)
 	tween.chain().tween_callback(func(): door_barrier.disabled = true)
 
+func build_ventilation_panel() -> void:
+	ventilation = VentilationPanel.new()
+	ventilation.environment = self
+	ventilation.position = SERVICE_POSITION
+	ventilation.bounds = Vector3(.19, .50, .99)
+	add_child(ventilation)
+	box(ventilation, Vector3.ZERO, Vector3(.15, .48, .98), trim)
+	box(ventilation, Vector3(-.084, .03, 0), Vector3(.025, .31, .85), inset)
+	vent_signal = material(Color(.70, .27, .06), .58)
+	box(ventilation, Vector3(-.10, -.157, 0), Vector3(.019, .024, .68), vent_signal)
+	vent_screen = sign_3d("mb01.vent.reserve", SERVICE_POSITION + Vector3(-.109, .035, 0), .00185)
+	vent_screen.rotation.y = -PI / 2.0
+	vent_screen.modulate = Color(.93, .63, .35)
+
+func check_ventilation() -> void:
+	bay.localization.bind_label(vent_screen, "mb01.vent.online" if vent_online else "mb01.vent.limited")
+	bay.audio.play_cue("terminal", ventilation.global_position)
+
 func build_fixtures() -> void:
 	# Vent and status display are environmental props with no physics or gameplay state.
 	box(self, Vector3(3.54, 2.64, -4.24), Vector3(1.08, 1.05, .16), trim)
@@ -199,6 +234,8 @@ func build_fixtures() -> void:
 	box(self, Vector3(3.54, 2.64, -4.06), Vector3(.16, .16, .08), shell)
 	for index in range(3):
 		box(self, Vector3(3.54, 2.43 + .21 * index, -3.98), Vector3(.92, .018, .035), shell)
+	bay_vent_status = sign_3d("mb01.vent.reserve", Vector3(3.54, 1.98, -4.15), .00165)
+	bay_vent_status.modulate = Color(.93, .63, .35)
 	box(self, Vector3(-2.8, 2.48, -4.26), Vector3(1.53, .72, .12), trim)
 	box(self, Vector3(-2.8, 2.48, -4.19), Vector3(1.45, .64, .055), inset)
 	machine_status = sign_3d("mb01.status.offline", Vector3(-2.8, 2.56, -4.152), .00173)
@@ -217,6 +254,12 @@ func settle_scanner_dock() -> void:
 	create_tween().tween_property(dock_material, "emission_energy_multiplier", .14, .35)
 
 func restore_room() -> void:
+	vent_online = true
+	vent_signal.emission = Color(.12, .70, .83)
+	vent_signal.albedo_color = vent_signal.emission
+	for label in [vent_screen, bay_vent_status]:
+		bay.localization.bind_label(label, "mb01.vent.online")
+		label.modulate = Color(.48, .86, .95)
 	bay.localization.bind_label(machine_status, "mb01.status.operational")
 	var tween := create_tween().set_parallel().set_trans(Tween.TRANS_SINE)
 	for node in bay.get_children():
